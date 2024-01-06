@@ -54,7 +54,7 @@
     "popper.js": "1.16.1",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2",
-    "ssri": ">=8.0.1",
+    "ssri": ">=10.0.5",
     "tslib": "^2.0.0",
     "typedoc": "0.22.11",
     "webpack-dev-server": "4.7.4",
