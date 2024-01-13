@@ -116,6 +116,18 @@
     rxjs "6.6.3"
     source-map "0.7.3"
 
+"@angular-devkit/core@17.0.10":
+  version "17.0.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-17.0.10.tgz#dce8b3cd4b90d694ed5ccf405c8f25e45938b310"
+  integrity sha512-93N6oHnmtRt0hL3AXxvnk47sN1rHndfj+pqI5haEY41AGWzIWv9cSBsqlM0PWltNpo6VivcExZESvbLJ71wqbQ==
+  dependencies:
+    ajv "8.12.0"
+    ajv-formats "2.1.1"
+    jsonc-parser "3.2.0"
+    picomatch "3.0.1"
+    rxjs "7.8.1"
+    source-map "0.7.4"
+
 "@angular-devkit/core@17.0.9":
   version "17.0.9"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-17.0.9.tgz#f79ff77fc38e8af1af4694acfb5b480339f073e1"
@@ -128,13 +140,24 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/schematics@11.2.14", "@angular-devkit/schematics@^11.0.4":
+"@angular-devkit/schematics@11.2.14":
   version "11.2.14"
   resolved "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-11.2.14.tgz"
   dependencies:
     "@angular-devkit/core" "11.2.14"
     ora "5.3.0"
     rxjs "6.6.3"
+
+"@angular-devkit/schematics@^17.0.10":
+  version "17.0.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-17.0.10.tgz#700067a2db9cd89883ec838b674c111c9cafdcc4"
+  integrity sha512-hjf4gaMx2uB6ZhBstBSH0Q2hzfp6kxI4IiJ5i1QrxPNE1MdGnb2h+LgPTRCdO72a7PGeWcSxFRE7cxrXeQy19g==
+  dependencies:
+    "@angular-devkit/core" "17.0.10"
+    jsonc-parser "3.2.0"
+    magic-string "0.30.5"
+    ora "5.4.1"
+    rxjs "7.8.1"
 
 "@angular/animations@11.2.14":
   version "11.2.14"
