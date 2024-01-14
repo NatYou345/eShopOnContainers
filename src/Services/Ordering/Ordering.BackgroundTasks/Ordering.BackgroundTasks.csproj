@@ -24,7 +24,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00896" />
     <PackageReference Include="Serilog.Sinks.Http" Version="8.0.0" />
     <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.3-dev-00260" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
