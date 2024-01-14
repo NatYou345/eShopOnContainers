@@ -205,10 +205,10 @@
   version "9.0.0"
   resolved "https://registry.npmjs.org/@angular/compiler/-/compiler-9.0.0.tgz"
 
-"@angular/core@12.0.1":
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.0.1.tgz#929cfca8afb9d1517ebc6eb6a813d9cf6215bacf"
-  integrity sha512-DA5hl0Hl97KTWbktXg1O3+Pt34hwsF1iY2l+8fSexfsKawHhZQuBjGnm8JNuIvKbu70MqHX0OBf2vNTK/Z06HQ==
+"@angular/core@12.0.2":
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.0.2.tgz#b31a2ad27d78e2b24747465defe5f2800c78663b"
+  integrity sha512-RBTl8L2ckSI3n2lo9rmwlUeZAuEd/TWUjoidoxPYWrKfbnFwKX65idCCbWLJivSVIBnPQYvAdC+3k4w40N9AWA==
   dependencies:
     tslib "^2.1.0"
 
