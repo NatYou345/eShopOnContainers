@@ -15,7 +15,7 @@
     <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="6.0.3" />
     <PackageReference Include="Google.Protobuf" Version="3.25.1" />
     <PackageReference Include="Grpc.AspNetCore.Server.ClientFactory" Version="2.50.0" />
-    <PackageReference Include="Grpc.Core" Version="2.46.5" />
+    <PackageReference Include="Grpc.Core" Version="2.46.6" />
     <PackageReference Include="Grpc.Net.ClientFactory" Version="2.60.0" />
     <PackageReference Include="Grpc.Tools" Version="2.51.0-pre1" PrivateAssets="All" />
     <PackageReference Include="Serilog.AspNetCore" Version="6.1.0-dev-00289" />
