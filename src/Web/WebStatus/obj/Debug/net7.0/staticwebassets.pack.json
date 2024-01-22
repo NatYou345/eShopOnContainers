@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/css/site.min.css",
+      "PackagePath": "staticwebassets/css/site.min.css"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/workspaces/eShopOnContainers/src/Web/WebStatus/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WebStatus.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.WebStatus.props",
+      "PackagePath": "build\\WebStatus.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.WebStatus.props",
+      "PackagePath": "buildMultiTargeting\\WebStatus.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.WebStatus.props",
+      "PackagePath": "buildTransitive\\WebStatus.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,12 @@
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/bin/Debug/net7.0/Devspaces.Support.deps.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/bin/Debug/net7.0/Devspaces.Support.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/bin/Debug/net7.0/Devspaces.Support.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.csproj.AssemblyReference.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.AssemblyInfoInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.AssemblyInfo.cs
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.csproj.CoreCompileInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/refint/Devspaces.Support.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/Devspaces.Support.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/Debug/net7.0/ref/Devspaces.Support.dll

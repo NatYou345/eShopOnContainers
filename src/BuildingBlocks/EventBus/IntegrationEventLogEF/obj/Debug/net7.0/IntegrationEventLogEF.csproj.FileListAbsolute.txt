@@ -1,0 +1,17 @@
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/IntegrationEventLogEF.deps.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/IntegrationEventLogEF.runtimeconfig.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/IntegrationEventLogEF.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/IntegrationEventLogEF.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/EventBus.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net7.0/EventBus.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.csproj.AssemblyReference.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.AssemblyInfoInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.AssemblyInfo.cs
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.csproj.CoreCompileInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.csproj.CopyComplete
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/refint/IntegrationEventLogEF.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/IntegrationEventLogEF.genruntimeconfig.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net7.0/ref/IntegrationEventLogEF.dll

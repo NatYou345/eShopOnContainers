@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "031m6hBfFIdx3p9ck1YRAX/egpx/01Nuh1ep0oxcaWe/0TUHTJiAM4jnW7p9biItoPn/qepHcuqe8v2CN3YGBA==",
+  "success": true,
+  "projectFilePath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reflection.typeextensions/4.7.0/system.reflection.typeextensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

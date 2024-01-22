@@ -1,0 +1,14 @@
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/bin/Debug/net7.0/WebHost.Customization.deps.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/bin/Debug/net7.0/WebHost.Customization.runtimeconfig.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/bin/Debug/net7.0/WebHost.Customization.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/bin/Debug/net7.0/WebHost.Customization.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.csproj.AssemblyReference.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.AssemblyInfoInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.AssemblyInfo.cs
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.csproj.CoreCompileInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/refint/WebHost.Customization.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/WebHost.Customization.genruntimeconfig.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/obj/Debug/net7.0/ref/WebHost.Customization.dll

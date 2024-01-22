@@ -1,0 +1,12 @@
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net7.0/EventBus.deps.json
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net7.0/EventBus.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net7.0/EventBus.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.csproj.AssemblyReference.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.AssemblyInfoInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.AssemblyInfo.cs
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.csproj.CoreCompileInputs.cache
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/refint/EventBus.dll
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/EventBus.pdb
+/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net7.0/ref/EventBus.dll

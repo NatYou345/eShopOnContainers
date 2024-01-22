@@ -1,0 +1,12 @@
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/bin/Debug/net7.0/Ordering.Domain.deps.json
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/bin/Debug/net7.0/Ordering.Domain.dll
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/bin/Debug/net7.0/Ordering.Domain.pdb
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.csproj.AssemblyReference.cache
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.AssemblyInfoInputs.cache
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.AssemblyInfo.cs
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.csproj.CoreCompileInputs.cache
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.dll
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/refint/Ordering.Domain.dll
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/Ordering.Domain.pdb
+/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/Debug/net7.0/ref/Ordering.Domain.dll
