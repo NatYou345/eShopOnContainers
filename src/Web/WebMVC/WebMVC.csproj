@@ -21,8 +21,8 @@
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
     <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="6.0.3" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0-beta1" />
-    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0-beta1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.8.3" />
