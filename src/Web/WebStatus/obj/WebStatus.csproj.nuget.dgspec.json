@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/eShopOnContainers/src/Web/WebStatus/WebStatus.csproj": {}
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebStatus\\WebStatus.csproj": {}
   },
   "projects": {
-    "/workspaces/eShopOnContainers/src/Web/WebStatus/WebStatus.csproj": {
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebStatus\\WebStatus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/eShopOnContainers/src/Web/WebStatus/WebStatus.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebStatus\\WebStatus.csproj",
         "projectName": "WebStatus",
-        "projectPath": "/workspaces/eShopOnContainers/src/Web/WebStatus/WebStatus.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/eShopOnContainers/src/Web/WebStatus/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebStatus\\WebStatus.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebStatus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/workspaces/eShopOnContainers/src/NuGet.config",
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,31 +41,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AspNetCore.HealthChecks.UI": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.InMemory.Storage": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.Uris": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Azure.Extensions.AspNetCore.Configuration.Secrets": {
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.3.1, )"
             },
             "Azure.Identity": {
               "target": "Package",
@@ -67,23 +78,19 @@
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.22.0-beta1, )"
+              "version": "[2.22.0, )"
             },
             "Microsoft.ApplicationInsights.DependencyCollector": {
               "target": "Package",
-              "version": "[2.22.0-beta1, )"
+              "version": "[2.22.0, )"
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[6.1.1, )"
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Web.LibraryManager.Build": {
               "target": "Package",
@@ -91,7 +98,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.0-dev-00289, )"
+              "version": "[8.0.1, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -99,11 +106,11 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[3.5.0-dev-00359, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[4.1.1-dev-00896, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
@@ -111,7 +118,7 @@
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[5.2.3-dev-00260, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -134,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

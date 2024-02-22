@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lJoQxWhLcAvC4EJS9URr6XPywcytNcY6g0fe4/Ek6filh96PmT2s/EFNroIZbQ/MrOwl0cpVgXQ6GkwzhBYDNg==",
+  "dgSpecHash": "BqjUAY4ucj+P8swxuHCBmrL7KfcpJYhf46OgzDBL/bSFlWCXy5ttKwcUPmfJxCLjg6y1hn213GKzt/5kbFpUUw==",
   "success": true,
-  "projectFilePath": "/workspaces/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+  "projectFilePath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

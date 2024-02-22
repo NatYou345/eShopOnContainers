@@ -1,0 +1,9 @@
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.RazorAssemblyInfo.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.RazorAssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Web\WebMVC\obj\Debug\net8.0\WebMVC.sourcelink.json

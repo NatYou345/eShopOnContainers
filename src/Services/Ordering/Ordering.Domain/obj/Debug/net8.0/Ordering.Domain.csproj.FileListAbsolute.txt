@@ -1,0 +1,13 @@
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.deps.json
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.pdb
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.sourcelink.json
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\refint\Ordering.Domain.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll

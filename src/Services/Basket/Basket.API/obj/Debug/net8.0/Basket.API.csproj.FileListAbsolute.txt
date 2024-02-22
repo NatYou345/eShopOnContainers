@@ -1,0 +1,8 @@
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Basket\Basket.API\obj\Debug\net8.0\Basket.API.sourcelink.json
