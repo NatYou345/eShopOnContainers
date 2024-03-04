@@ -27,7 +27,7 @@
     "lint:ts": "tslint -c tslint.json Client/**/*.ts"
   },
   "dependencies": {
-    "@angular-devkit/schematics": "^17.2.0",
+    "@angular-devkit/schematics": "^17.2.2",
     "@angular/animations": "17.2.2",
     "@angular/common": "17.2.2",
     "@angular/compiler": "17.2.2",
