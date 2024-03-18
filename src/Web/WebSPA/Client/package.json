@@ -34,7 +34,7 @@
     "@angular/core": "17.2.2",
     "@angular/forms": "17.2.2",
     "@angular/platform-browser": "17.2.2",
-    "@angular/platform-browser-dynamic": "17.2.2",
+    "@angular/platform-browser-dynamic": "17.3.0",
     "@angular/platform-server": "17.2.2",
     "@angular/router": "17.2.2",
     "@microsoft/signalr": "8.0.0",
