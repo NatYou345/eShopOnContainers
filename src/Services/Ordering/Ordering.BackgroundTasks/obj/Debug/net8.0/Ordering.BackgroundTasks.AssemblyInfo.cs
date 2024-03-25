@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-Ordering.BackgroundTasks-9D3E1DD6-405B-447F-8AAB-1708B36D260E")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ordering.BackgroundTasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e676a26b6a4576d3182fd7a48e5e9d884172f372")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ordering.BackgroundTasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ordering.BackgroundTasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

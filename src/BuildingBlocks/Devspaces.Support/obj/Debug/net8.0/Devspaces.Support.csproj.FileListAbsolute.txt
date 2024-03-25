@@ -1,0 +1,13 @@
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\bin\Debug\net8.0\Devspaces.Support.deps.json
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\bin\Debug\net8.0\Devspaces.Support.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\bin\Debug\net8.0\Devspaces.Support.pdb
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.sourcelink.json
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\refint\Devspaces.Support.dll
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\Devspaces.Support.pdb
+c:\Users\ALLEGRANathan\eShopOnContainers\src\BuildingBlocks\Devspaces.Support\obj\Debug\net8.0\ref\Devspaces.Support.dll
