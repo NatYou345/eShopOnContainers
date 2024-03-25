@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj": {}
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj": {}
   },
   "projects": {
-    "/workspaces/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj": {
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj",
         "projectName": "WebhookClient",
-        "projectPath": "/workspaces/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/eShopOnContainers/src/Web/WebhookClient/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/workspaces/eShopOnContainers/src/NuGet.config",
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,27 +41,28 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[5.2.9, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[7.0.14, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -78,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

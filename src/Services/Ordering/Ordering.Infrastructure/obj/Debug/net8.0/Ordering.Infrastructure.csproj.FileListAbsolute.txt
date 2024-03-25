@@ -1,0 +1,6 @@
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\eShopOnContainers\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.sourcelink.json

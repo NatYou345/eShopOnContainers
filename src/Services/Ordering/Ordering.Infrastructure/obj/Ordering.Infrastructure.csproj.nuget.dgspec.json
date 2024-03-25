@@ -1,32 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj": {}
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {}
   },
   "projects": {
-    "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj": {
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/workspaces/eShopOnContainers/src/NuGet.config",
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,23 +41,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
-            },
-            "System.Reflection.TypeExtensions": {
-              "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
@@ -69,36 +77,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj": {
+    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
         "projectName": "Ordering.Infrastructure",
-        "projectPath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/workspaces/eShopOnContainers/src/NuGet.config",
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj": {
-                "projectPath": "/workspaces/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj"
+              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
               }
             }
           }
@@ -107,27 +122,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[11.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.15, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -150,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
