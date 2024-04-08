@@ -11,10 +11,10 @@
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="7.0.3" />
-    <PackageReference Include="Duende.IdentityServer.EntityFramework.Storage" Version="7.0.3" />
-    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="7.0.3" />
-    <PackageReference Include="Duende.IdentityServer.Storage" Version="7.0.3" />
-    <PackageReference Include="Duende.IdentityServer" Version="7.0.3" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework.Storage" Version="7.0.4" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="7.0.4" />
+    <PackageReference Include="Duende.IdentityServer.Storage" Version="7.0.4" />
+    <PackageReference Include="Duende.IdentityServer" Version="7.0.4" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="6.1.2" />
