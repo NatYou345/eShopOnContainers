@@ -70,7 +70,7 @@
     "@types/jasmine": "~5.1.4",
     "@types/node": "^20.11.30",
     "@types/protractor": "4.0.0",
-    "@types/selenium-webdriver": "4.1.22",
+    "@types/selenium-webdriver": "4.1.23",
     "codelyzer": "^6.0.2",
     "eslint": "8.57.0",
     "handlebars": "^4.7.8",
