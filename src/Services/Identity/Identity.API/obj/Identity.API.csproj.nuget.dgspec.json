@@ -142,10 +142,6 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
-            "Microsoft.Web.LibraryManager.Build": {
-              "target": "Package",
-              "version": "[2.1.175, )"
-            },
             "Polly": {
               "target": "Package",
               "version": "[8.3.1, )"
@@ -160,7 +156,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",

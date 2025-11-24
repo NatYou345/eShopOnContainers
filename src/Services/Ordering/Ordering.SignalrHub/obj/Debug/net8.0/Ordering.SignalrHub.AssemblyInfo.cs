@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ordering.SignalrHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db1b0481b7100049eb51b43d4ebed5ce7ad3c2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+364ad1a55e6a0ade19d660c4242382c75ffbc145")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ordering.SignalrHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ordering.SignalrHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -333,7 +333,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",

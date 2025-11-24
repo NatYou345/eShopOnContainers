@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mobile.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db1b0481b7100049eb51b43d4ebed5ce7ad3c2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+364ad1a55e6a0ade19d660c4242382c75ffbc145")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mobile.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mobile.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

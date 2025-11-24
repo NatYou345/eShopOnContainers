@@ -622,7 +622,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.3, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -630,7 +630,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
@@ -827,7 +827,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
@@ -1044,7 +1044,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
@@ -1429,10 +1429,6 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
-            "Microsoft.Web.LibraryManager.Build": {
-              "target": "Package",
-              "version": "[2.1.175, )"
-            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -1443,7 +1439,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",

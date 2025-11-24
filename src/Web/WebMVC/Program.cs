@@ -27,7 +27,6 @@ IWebHost BuildWebHost(IConfiguration configuration, string[] args) =>
         .CaptureStartupErrors(false)
         .ConfigureAppConfiguration(x => x.AddConfiguration(configuration))
         .UseStartup<Startup>()
-        .UseSerilog()
         .Build();
 
 Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)
