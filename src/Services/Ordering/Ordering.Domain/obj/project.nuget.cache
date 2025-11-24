@@ -1,20 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "RW2FAyS0KEKEToW9Kywn9ylFWrj8LEX7jtGRjdoZ+rOf+LdEgIb6DNfuqRhcA5vZWY2anZ6WW+BZRwBqsKwwhQ==",
+  "dgSpecHash": "HpvlcbYL35c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+  "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "/home/runner/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1608",
       "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
       "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 nécessite MediatR (>= 11.0.0 && < 12.0.0) alors que la version MediatR 12.2.0 a été résolue.",
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"
