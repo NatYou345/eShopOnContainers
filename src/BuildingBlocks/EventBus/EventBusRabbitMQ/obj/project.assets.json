@@ -174,14 +174,10 @@
           "System.Threading.Channels": "7.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/7.0.2": {

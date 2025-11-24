@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "gGHKM77MzVU=",
-  "success": true,
+  "dgSpecHash": "pp979S8pQjk=",
+  "success": false,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.azureservicebus/8.0.0/aspnetcore.healthchecks.azureservicebus.8.0.0.nupkg.sha512",
@@ -153,7 +153,7 @@
     "/home/runner/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.aspnetcore/8.0.1/serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.aspnetcore/8.0.3/serilog.aspnetcore.8.0.3.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.enrichers.environment/2.3.0/serilog.enrichers.environment.2.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
@@ -282,5 +282,17 @@
     "/home/runner/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/yamldotnet/12.3.1/yamldotnet.12.3.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Serilog.Settings.Configuration from 8.0.4 to 8.0.0. Reference the package directly from the project to select a different version. \n Basket.API -> Serilog.AspNetCore 8.0.3 -> Serilog.Settings.Configuration (>= 8.0.4) \n Basket.API -> Serilog.Settings.Configuration (>= 8.0.0)",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
+      "libraryId": "Serilog.Settings.Configuration",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
