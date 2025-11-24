@@ -1,33 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj": {}
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
         "projectName": "WebhookClient",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\WebhookClient.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebhookClient\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -46,7 +39,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,11 +52,11 @@
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -85,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

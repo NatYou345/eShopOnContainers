@@ -30,7 +30,6 @@ IWebHost BuildWebHost(IConfiguration configuration, string[] args) =>
         .ConfigureAppConfiguration(x => x.AddConfiguration(configuration))
         .UseStartup<Startup>()
         .UseContentRoot(Directory.GetCurrentDirectory())
-        .UseSerilog()
         .Build();
 
 Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)

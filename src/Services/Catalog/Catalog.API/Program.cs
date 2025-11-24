@@ -53,7 +53,6 @@ IWebHost CreateHostBuilder(IConfiguration configuration, string[] args) =>
       .UseStartup<Startup>()
       .UseContentRoot(Directory.GetCurrentDirectory())
       .UseWebRoot("Pics")
-      .UseSerilog()
       .Build();
 
 Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)

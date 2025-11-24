@@ -1,4 +1,20 @@
-await ﻿BuildWebHost(args).RunAsync();
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .CreateLogger();
+
+try
+{
+    await BuildWebHost(args).RunAsync();
+}
+finally
+{
+    Log.CloseAndFlush();
+}
+
 IWebHost BuildWebHost(string[] args) =>
     WebHost
         .CreateDefaultBuilder(args)
@@ -13,11 +29,4 @@ IWebHost BuildWebHost(string[] args) =>
             });
         })
         .UseStartup<Startup>()
-        .UseSerilog((builderContext, config) =>
-        {
-            config
-                .MinimumLevel.Information()
-                .Enrich.FromLogContext()
-                .WriteTo.Console();
-        })
         .Build();

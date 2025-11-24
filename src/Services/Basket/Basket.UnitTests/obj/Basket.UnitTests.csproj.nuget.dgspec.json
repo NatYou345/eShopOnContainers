@@ -1,33 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj": {}
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.UnitTests/Basket.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj",
         "projectName": "Devspaces.Support",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -46,7 +39,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +52,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
@@ -81,34 +75,88 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
-        "projectName": "EventBusRabbitMQ",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "projectName": "EventBus",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -116,8 +164,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
               }
             }
           }
@@ -131,7 +179,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -151,7 +200,7 @@
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[8.3.1, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -174,34 +223,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
         "projectName": "EventBusServiceBus",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -209,8 +251,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
               }
             }
           }
@@ -224,7 +266,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -236,7 +279,7 @@
             },
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
-              "version": "[7.17.3, )"
+              "version": "[7.17.4, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -263,101 +306,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
-        "projectName": "EventBus",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
         "projectName": "Basket.API",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -365,14 +334,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj"
               }
             }
           }
@@ -386,7 +355,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -418,15 +388,15 @@
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.10.4, )"
+              "version": "[1.17.1, )"
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.25.3, )"
+              "version": "[3.26.0, )"
             },
             "Grpc.AspNetCore.Server": {
               "target": "Package",
-              "version": "[2.60.0, )"
+              "version": "[2.61.0, )"
             },
             "Grpc.Tools": {
               "suppressParent": "All",
@@ -443,15 +413,15 @@
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[6.1.2, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.AspNetCore.HealthChecks": {
               "target": "Package",
@@ -459,7 +429,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
@@ -467,11 +437,11 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.3, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -479,7 +449,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
@@ -491,7 +461,7 @@
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -503,7 +473,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.3.1, )"
+              "version": "[7.4.1, )"
             }
           },
           "imports": [
@@ -526,34 +496,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.UnitTests/Basket.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.UnitTests/Basket.UnitTests.csproj",
         "projectName": "Basket.UnitTests",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.UnitTests\\Basket.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.UnitTests\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.UnitTests/Basket.UnitTests.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.UnitTests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -561,11 +524,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj"
               }
             }
           }
@@ -579,7 +542,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -591,11 +555,11 @@
             },
             "Microsoft.AspNetCore.Mvc.Testing": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -636,34 +600,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj": {
+    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
         "projectName": "WebMVC",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\Web\\WebMVC\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\NuGet.Config",
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -671,8 +628,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj"
+              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj": {
+                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj"
               }
             }
           }
@@ -686,7 +643,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -714,19 +672,19 @@
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[6.1.2, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.AspNetCore.HealthChecks": {
               "target": "Package",
@@ -738,11 +696,7 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.Web.LibraryManager.Build": {
-              "target": "Package",
-              "version": "[2.1.175, )"
+              "version": "[8.0.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -754,7 +708,7 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
@@ -766,7 +720,7 @@
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -788,7 +742,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
