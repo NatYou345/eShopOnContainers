@@ -64,27 +64,27 @@
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.10.4, )"
+              "version": "[1.17.1, )"
             },
             "Duende.IdentityServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.8, )"
             },
             "Duende.IdentityServer.AspNetIdentity": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.8, )"
             },
             "Duende.IdentityServer.EntityFramework": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.8, )"
             },
             "Duende.IdentityServer.EntityFramework.Storage": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.8, )"
             },
             "Duende.IdentityServer.Storage": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.8, )"
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
