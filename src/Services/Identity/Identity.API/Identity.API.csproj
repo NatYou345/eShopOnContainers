@@ -43,6 +43,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
     <None Include="Views\Account\AccessDenied.cshtml" />
     <None Include="Views\Account\LoggedOut.cshtml" />
     <None Include="Views\Account\Login.cshtml" />
