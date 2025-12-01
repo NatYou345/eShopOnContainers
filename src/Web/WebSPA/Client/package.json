@@ -67,7 +67,7 @@
     "@angular/language-service": "17.3.1",
     "@types/core-js": "2.5.8",
     "@types/hammerjs": "2.0.45",
-    "@types/jasmine": "~5.1.4",
+    "@types/jasmine": "~5.1.13",
     "@types/node": "^20.11.30",
     "@types/selenium-webdriver": "4.1.22",
     "codelyzer": "^0.0.28",
