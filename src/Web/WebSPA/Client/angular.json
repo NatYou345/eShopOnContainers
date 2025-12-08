@@ -16,7 +16,8 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.json",
             "polyfills": [
-              "src/polyfills.ts"
+              "src/polyfills.ts",
+              "src/polyfills-browser.ts"
             ],
             "assets": [
               "src/assets",
@@ -30,7 +31,11 @@
               "includePaths": [
                 "src/styles"
               ]
-            }
+            },
+            "externalDependencies": [
+              "http",
+              "https"
+            ]
           },
           "configurations": {
             "production": {

@@ -116,13 +116,13 @@ export class BasketService {
     }
 
     updateQuantity() {
-        this.basketUpdateSource.next();
+        this.basketUpdateSource.next(undefined);
     }
 
     dropBasket() {
         this.basket.items = [];
         this.setBasket(this.basket).subscribe(res => {
-            this.basketUpdateSource.next();
+            this.basketUpdateSource.next(undefined);
         });
     }
 

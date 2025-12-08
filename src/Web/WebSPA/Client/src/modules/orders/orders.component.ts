@@ -8,6 +8,7 @@ import { catchError } from 'rxjs/operators';
 import { SignalrService } from '../shared/services/signalr.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-orders .esh-orders .mb-5',
     styleUrls: ['./orders.component.scss'],
     templateUrl: './orders.component.html'

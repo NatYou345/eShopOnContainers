@@ -7,6 +7,7 @@ import { SecurityService }      from '../../shared/services/security.service';
 import { ConfigurationService }      from '../../shared/services/configuration.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-basket-status',
     styleUrls: ['./basket-status.component.scss'],
     templateUrl: './basket-status.component.html'

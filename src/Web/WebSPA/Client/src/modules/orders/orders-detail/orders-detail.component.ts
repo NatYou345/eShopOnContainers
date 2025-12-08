@@ -4,6 +4,7 @@ import { IOrderDetail } from '../../shared/models/order-detail.model';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
+    standalone: false,
     selector: 'esh-orders_detail .esh-orders_detail .mb-5',
     styleUrls: ['./orders-detail.component.scss'],
     templateUrl: './orders-detail.component.html'

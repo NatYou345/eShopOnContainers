@@ -14,6 +14,7 @@ import { BasketWrapperService}  from '../shared/services/basket.wrapper.service'
 import { SecurityService }      from '../shared/services/security.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-catalog .esh-catalog .mb-5',
     styleUrls: ['./catalog.component.scss'],
     templateUrl: './catalog.component.html'

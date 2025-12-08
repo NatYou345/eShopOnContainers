@@ -48,10 +48,12 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
         ReactiveFormsModule,
         RouterModule,
         NgbModule,
-        // Providers, Components, directive, pipes
+        // Components
         Pager,
         Header,
-        Identity
+        Identity,
+        PageNotFoundComponent,
+        UppercasePipe
     ]
 })
 export class SharedModule {

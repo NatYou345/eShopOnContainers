@@ -10,6 +10,7 @@ import { IBasketItem } from '../shared/models/basketItem.model';
 import { BasketWrapperService } from '../shared/services/basket.wrapper.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-basket .esh-basket .mb-5',
     styleUrls: ['./basket.component.scss'],
     templateUrl: './basket.component.html'

@@ -12,6 +12,7 @@ import { FormGroup, FormBuilder, Validators  }      from '@angular/forms';
 import { Router }                                   from '@angular/router';
 
 @Component({
+    standalone: false,
     selector: 'esh-orders_new .esh-orders_new .mb-5',
     styleUrls: ['./orders-new.component.scss'],
     templateUrl: './orders-new.component.html'
@@ -26,6 +27,7 @@ export class OrdersNewComponent implements OnInit {
         // Obtain user profile information
         this.order = orderService.mapOrderAndIdentityInfoNewOrder();
         this.newOrderForm = fb.group({
+    standalone: false,
             'street': [this.order.street, Validators.required],
             'city': [this.order.city, Validators.required],
             'state': [this.order.state, Validators.required],
