@@ -62,6 +62,7 @@
     <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.3" />
     <None Update="Setup\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
