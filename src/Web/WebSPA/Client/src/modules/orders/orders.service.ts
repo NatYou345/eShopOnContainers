@@ -9,6 +9,7 @@ import { ConfigurationService } from '../shared/services/configuration.service';
 import { BasketWrapperService } from '../shared/services/basket.wrapper.service';
 
 import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
 import { tap, map } from 'rxjs/operators';
 
 @Injectable()

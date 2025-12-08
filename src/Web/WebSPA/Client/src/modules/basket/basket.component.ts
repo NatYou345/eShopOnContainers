@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
 
 import { BasketService } from './basket.service';
 import { IBasket } from '../shared/models/basket.model';

@@ -20,7 +20,13 @@
     "useDefineForClassFields": false,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "url": ["node_modules/url/url.js"],
+      "http": ["node_modules/stream-http"],
+      "https": ["node_modules/https-browserify"],
+      "util": ["node_modules/util/util.js"]
+    }
   },
   "angularCompilerOptions": {
     "enableIvy": true,
