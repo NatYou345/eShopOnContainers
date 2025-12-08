@@ -51,9 +51,7 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
         // Providers, Components, directive, pipes
         Pager,
         Header,
-        Identity,
-        PageNotFoundComponent,
-        UppercasePipe
+        Identity
     ]
 })
 export class SharedModule {
