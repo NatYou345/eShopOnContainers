@@ -2,6 +2,7 @@
 
 import { HttpClient, HttpHeaders }      from '@angular/common/http';
 import { Observable, Subject }          from 'rxjs';
+import { throwError } from 'rxjs';
 import { Router }                       from '@angular/router';
 import { ActivatedRoute }               from '@angular/router';
 import { ConfigurationService }         from './configuration.service';

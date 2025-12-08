@@ -12,6 +12,7 @@ import { ConfigurationService } from '../shared/services/configuration.service';
 import { StorageService } from '../shared/services/storage.service';
 
 import { Observable, Observer, Subject } from 'rxjs';
+import { throwError } from 'rxjs';
 import { map, catchError, tap } from 'rxjs/operators';
 
 @Injectable()
@@ -115,13 +116,13 @@ export class BasketService {
     }
 
     updateQuantity() {
-        this.basketUpdateSource.next();
+        this.basketUpdateSource.next(undefined);
     }
 
     dropBasket() {
         this.basket.items = [];
         this.setBasket(this.basket).subscribe(res => {
-            this.basketUpdateSource.next();
+            this.basketUpdateSource.next(undefined);
         });
     }
 

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
 
 import { BasketService } from './basket.service';
 import { IBasket } from '../shared/models/basket.model';
@@ -9,6 +10,7 @@ import { IBasketItem } from '../shared/models/basketItem.model';
 import { BasketWrapperService } from '../shared/services/basket.wrapper.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-basket .esh-basket .mb-5',
     styleUrls: ['./basket.component.scss'],
     templateUrl: './basket.component.html'

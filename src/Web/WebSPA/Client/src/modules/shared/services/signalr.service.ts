@@ -9,7 +9,7 @@ import { Subject } from 'rxjs';
 export class SignalrService {
     private _hubConnection: HubConnection;
     private SignalrHubUrl: string = '';
-    private msgSignalrSource = new Subject();
+    private msgSignalrSource = new Subject<void>();
     msgReceived$ = this.msgSignalrSource.asObservable();
 
     constructor(
@@ -64,7 +64,7 @@ export class SignalrService {
         this._hubConnection.on('UpdatedOrderState', (msg) => {
             console.log(`Order ${msg.orderId} updated to ${msg.status}`);
             this.toastr.success('Updated to status: ' + msg.status, 'Order Id: ' + msg.orderId);
-            this.msgSignalrSource.next();
+            this.msgSignalrSource.next(undefined);
         });
     }
 }

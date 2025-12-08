@@ -3,10 +3,12 @@ import { OrdersService }        from './orders.service';
 import { IOrder }               from '../shared/models/order.model';
 import { ConfigurationService } from '../shared/services/configuration.service';
 import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { SignalrService } from '../shared/services/signalr.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-orders .esh-orders .mb-5',
     styleUrls: ['./orders.component.scss'],
     templateUrl: './orders.component.html'
@@ -55,7 +57,7 @@ export class OrdersComponent implements OnInit {
 
     private handleError(error: any) {
         this.errorReceived = true;
-        return Observable.throw(error);
+        return throwError(error);
     }  
 }
 

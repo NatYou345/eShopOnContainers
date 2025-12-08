@@ -1,5 +1,6 @@
 import { Component, OnInit }    from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
+import { throwError } from 'rxjs';
 import { catchError }           from 'rxjs/operators';
 
 import { CatalogService }       from './catalog.service';
@@ -13,6 +14,7 @@ import { BasketWrapperService}  from '../shared/services/basket.wrapper.service'
 import { SecurityService }      from '../shared/services/security.service';
 
 @Component({
+    standalone: false,
     selector: 'esh-catalog .esh-catalog .mb-5',
     styleUrls: ['./catalog.component.scss'],
     templateUrl: './catalog.component.html'
@@ -121,7 +123,7 @@ export class CatalogComponent implements OnInit {
 
     private handleError(error: any) {
         this.errorReceived = true;
-        return Observable.throw(error);
+        return throwError(error);
     }
 }
 

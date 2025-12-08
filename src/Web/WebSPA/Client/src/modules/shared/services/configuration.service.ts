@@ -4,12 +4,13 @@ import { IConfiguration }   from '../models/configuration.model';
 import { StorageService }   from './storage.service';
 
 import { Observable, Subject } from 'rxjs';
+import { throwError } from 'rxjs';
 
 @Injectable()
 export class ConfigurationService {
     serverSettings: IConfiguration;
     // observable that is fired when settings are loaded from server
-    private settingsLoadedSource = new Subject();
+    private settingsLoadedSource = new Subject<void>();
     settingsLoaded$ = this.settingsLoadedSource.asObservable();
     isReady: boolean = false;
 
@@ -27,7 +28,7 @@ export class ConfigurationService {
             this.storageService.store('signalrHubUrl', this.serverSettings.signalrHubUrl);
             this.storageService.store('activateCampaignDetailFunction', this.serverSettings.activateCampaignDetailFunction);
             this.isReady = true;
-            this.settingsLoadedSource.next();
+            this.settingsLoadedSource.next(undefined);
         });
     }
 }

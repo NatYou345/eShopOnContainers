@@ -39,6 +39,6 @@ export class BasketWrapperService {
     }
 
     orderCreated() {
-        this.orderCreatedSource.next();
+        this.orderCreatedSource.next(undefined);
     }
 }

@@ -35,7 +35,7 @@ public class RedisBasketRepository : IBasketRepository
             return null;
         }
 
-        return JsonSerializer.Deserialize<CustomerBasket>(data, new JsonSerializerOptions
+        return JsonSerializer.Deserialize<CustomerBasket>((string)data, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         });

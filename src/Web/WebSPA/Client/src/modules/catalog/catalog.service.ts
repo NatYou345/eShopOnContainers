@@ -7,6 +7,7 @@ import { ICatalogBrand } from '../shared/models/catalogBrand.model';
 import { ICatalogType } from '../shared/models/catalogType.model';
 
 import { Observable } from 'rxjs';
+import { throwError } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
 @Injectable()

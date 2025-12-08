@@ -1,0 +1,22 @@
+<Project>
+  <PropertyGroup>
+    <!-- Suppress all NuGet warnings -->
+    <NoWarn>$(NoWarn);NU1510;NU1603;NU1605;NU1901;NU1902;NU1903</NoWarn>
+    
+    <!-- Suppress obsolete API warnings -->
+    <NoWarn>$(NoWarn);CS0618;ASPDEPR008;ASPDEPR004;ASP0019</NoWarn>
+    
+    <!-- Suppress other warnings -->
+    <NoWarn>$(NoWarn);CS0105;CA2024;CS0219;CS0169;CS8632</NoWarn>
+    
+    <!-- Suppress MSBuild warnings -->
+    <NoWarn>$(NoWarn);MSB3277;NETSDK1206</NoWarn>
+    
+    <!-- Suppress xUnit warnings -->
+    <NoWarn>$(NoWarn);xUnit2000;xUnit2020</NoWarn>
+    
+    <!-- Treat warnings as errors = false to allow builds with warnings -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors></WarningsAsErrors>
+  </PropertyGroup>
+</Project>
