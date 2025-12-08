@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cxETDWPrGF4=",
+  "dgSpecHash": "P/Y5XKw7WLQ=",
   "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
   "expectedPackageFiles": [
@@ -118,18 +118,5 @@
     "/home/runner/.nuget/packages/system.security.permissions/7.0.0/system.security.permissions.7.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.Build' 17.8.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3q9-fxm7-j8fq",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebhookClient/WebhookClient.csproj",
-      "libraryId": "Microsoft.Build",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

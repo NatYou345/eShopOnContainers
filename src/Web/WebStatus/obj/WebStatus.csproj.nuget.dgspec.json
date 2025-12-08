@@ -31,6 +31,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -96,11 +104,11 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",

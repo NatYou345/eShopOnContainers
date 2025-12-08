@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sJtNqiJZ6c4=",
+  "dgSpecHash": "Cl5KY47jN8c=",
   "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [
@@ -16,18 +16,5 @@
     "/home/runner/.nuget/packages/polly.core/8.3.1/polly.core.8.3.1.nupkg.sha512",
     "/home/runner/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1510",
-      "level": "Warning",
-      "message": "PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
-      "libraryId": "Microsoft.CSharp",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

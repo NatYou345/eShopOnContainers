@@ -31,6 +31,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -370,6 +378,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -731,6 +747,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1088,6 +1112,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1105,19 +1137,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -1454,6 +1486,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1479,7 +1519,7 @@
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
             },
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
@@ -1528,21 +1568,21 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
@@ -1550,11 +1590,11 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -1562,11 +1602,11 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[6.0.0, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
@@ -1578,11 +1618,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.9.0, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.9.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

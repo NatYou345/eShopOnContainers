@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "LjLYveJUgao=",
-  "success": false,
+  "dgSpecHash": "nOvSErSFQ7A=",
+  "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.azureservicebus/8.0.0/aspnetcore.healthchecks.azureservicebus.8.0.0.nupkg.sha512",
@@ -78,7 +78,7 @@
     "/home/runner/.nuget/packages/serilog.extensions.logging/9.0.0/serilog.extensions.logging.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.formatting.compact/3.0.0/serilog.formatting.compact.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.settings.configuration/9.0.0/serilog.settings.configuration.9.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.console/6.0.0/serilog.sinks.console.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.http/8.0.0/serilog.sinks.http.8.0.0.nupkg.sha512",
@@ -96,113 +96,5 @@
     "/home/runner/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Ordering.BackgroundTasks depends on Serilog.AspNetCore (>= 8.0.11) but Serilog.AspNetCore 8.0.11 was not found. Serilog.AspNetCore 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Serilog.AspNetCore",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Ordering.BackgroundTasks depends on Serilog.Settings.Configuration (>= 8.0.11) but Serilog.Settings.Configuration 8.0.11 was not found. Serilog.Settings.Configuration 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Serilog.Settings.Configuration",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Azure.Identity' 1.7.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.Data.SqlClient' 5.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Microsoft.Data.SqlClient",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Serilog.Sinks.Console from 6.0.0 to 5.0.1. Reference the package directly from the project to select a different version. \n Ordering.BackgroundTasks -> Serilog.AspNetCore 9.0.0 -> Serilog.Sinks.Console (>= 6.0.0) \n Ordering.BackgroundTasks -> Serilog.Sinks.Console (>= 5.0.1)",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
-      "libraryId": "Serilog.Sinks.Console",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

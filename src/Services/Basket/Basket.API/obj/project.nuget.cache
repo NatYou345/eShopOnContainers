@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0Royb8uzr+s=",
-  "success": false,
+  "dgSpecHash": "lsRPmw1l+JY=",
+  "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.azureservicebus/9.0.0/aspnetcore.healthchecks.azureservicebus.9.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/aspnetcore.healthchecks.rabbitmq/9.0.0/aspnetcore.healthchecks.rabbitmq.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/aspnetcore.healthchecks.rabbitmq/8.0.2/aspnetcore.healthchecks.rabbitmq.8.0.2.nupkg.sha512",
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.redis/9.0.0/aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.ui.client/9.0.0/aspnetcore.healthchecks.ui.client.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.ui.core/9.0.0/aspnetcore.healthchecks.ui.core.9.0.0.nupkg.sha512",
@@ -33,11 +33,11 @@
     "/home/runner/.nuget/packages/microsoft.applicationinsights.perfcountercollector/2.23.0/microsoft.applicationinsights.perfcountercollector.2.23.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.applicationinsights.windowsserver/2.23.0/microsoft.applicationinsights.windowsserver.2.23.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.applicationinsights.windowsserver.telemetrychannel/2.23.0/microsoft.applicationinsights.windowsserver.telemetrychannel.2.23.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.11/microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/8.0.11/microsoft.aspnetcore.authentication.openidconnect.8.0.11.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.0/microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/9.0.0/microsoft.aspnetcore.authentication.openidconnect.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.aspnetcore.healthchecks/1.0.0/microsoft.aspnetcore.healthchecks.1.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.11/microsoft.aspnetcore.jsonpatch.8.0.11.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.11/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.11.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.jsonpatch/9.0.0/microsoft.aspnetcore.jsonpatch.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/9.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.azure.amqp/2.6.5/microsoft.azure.amqp.2.6.5.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.azure.keyvault/2.3.2/microsoft.azure.keyvault.2.3.2.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.azure.keyvault.webkey/2.0.7/microsoft.azure.keyvault.webkey.2.0.7.nupkg.sha512",
@@ -53,15 +53,15 @@
     "/home/runner/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.32/microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.healthchecks/1.0.0/microsoft.extensions.healthchecks.1.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.applicationinsights/2.23.0/microsoft.extensions.logging.applicationinsights.2.23.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.logging.azureappservices/8.0.11/microsoft.extensions.logging.azureappservices.8.0.11.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging.azureappservices/9.0.0/microsoft.extensions.logging.azureappservices.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identity.client/4.78.0/microsoft.identity.client.4.78.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identity.client.extensions.msal/4.78.0/microsoft.identity.client.extensions.msal.4.78.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.abstractions/8.15.0/microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.clients.activedirectory/3.14.2/microsoft.identitymodel.clients.activedirectory.3.14.2.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.15.0/microsoft.identitymodel.jsonwebtokens.8.15.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.logging/8.15.0/microsoft.identitymodel.logging.8.15.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.tokens/8.15.0/microsoft.identitymodel.tokens.8.15.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.app/1.0.5/microsoft.netcore.app.1.0.5.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.dotnethost/1.0.1/microsoft.netcore.dotnethost.1.0.1.nupkg.sha512",
@@ -72,7 +72,7 @@
     "/home/runner/.nuget/packages/microsoft.netcore.runtime.coreclr/1.0.7/microsoft.netcore.runtime.coreclr.1.0.7.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.targets/1.0.3/microsoft.netcore.targets.1.0.3.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.windows.apisets/1.0.1/microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.rest.clientruntime/2.3.8/microsoft.rest.clientruntime.2.3.8.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.rest.clientruntime.azure/3.3.7/microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
@@ -82,7 +82,7 @@
     "/home/runner/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/home/runner/.nuget/packages/polly/8.3.1/polly.8.3.1.nupkg.sha512",
     "/home/runner/.nuget/packages/polly.core/8.3.1/polly.core.8.3.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/rabbitmq.client/7.0.0/rabbitmq.client.7.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
     "/home/runner/.nuget/packages/runtime.native.system.security.cryptography/4.0.1/runtime.native.system.security.cryptography.4.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog/4.2.0/serilog.4.2.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.aspnetcore/9.0.0/serilog.aspnetcore.9.0.0.nupkg.sha512",
@@ -91,17 +91,17 @@
     "/home/runner/.nuget/packages/serilog.extensions.logging/9.0.0/serilog.extensions.logging.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.formatting.compact/3.0.0/serilog.formatting.compact.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.settings.configuration/9.0.0/serilog.settings.configuration.9.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.console/6.1.1/serilog.sinks.console.6.1.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.console/6.0.0/serilog.sinks.console.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.file/7.0.0/serilog.sinks.file.7.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.http/9.2.0/serilog.sinks.http.9.2.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.seq/9.0.0/serilog.sinks.seq.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/stackexchange.redis/2.7.4/stackexchange.redis.2.7.4.nupkg.sha512",
-    "/home/runner/.nuget/packages/swashbuckle.aspnetcore/7.2.0/swashbuckle.aspnetcore.7.2.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.newtonsoft/7.2.0/swashbuckle.aspnetcore.newtonsoft.7.2.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swagger/7.2.0/swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.2.0/swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggerui/7.2.0/swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore/6.9.0/swashbuckle.aspnetcore.6.9.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.newtonsoft/6.9.0/swashbuckle.aspnetcore.newtonsoft.6.9.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swagger/6.9.0/swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.9.0/swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.9.0/swashbuckle.aspnetcore.swaggerui.6.9.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.clientmodel/1.8.0/system.clientmodel.1.8.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.performancecounter/6.0.0/system.diagnostics.performancecounter.6.0.0.nupkg.sha512",
@@ -114,89 +114,5 @@
     "/home/runner/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Basket.API depends on Serilog.AspNetCore (>= 8.0.11) but Serilog.AspNetCore 8.0.11 was not found. Serilog.AspNetCore 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Serilog.AspNetCore",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Basket.API depends on Serilog.Settings.Configuration (>= 8.0.11) but Serilog.Settings.Configuration 8.0.11 was not found. Serilog.Settings.Configuration 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Serilog.Settings.Configuration",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-7mfr-774f-w5r9",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-8884-xcr4-r68p",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.Jit' 1.0.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-xcvr-qv8h-m7xw",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Microsoft.NETCore.Jit",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'Microsoft.Rest.ClientRuntime' 2.3.8 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-whph-446h-6m9v",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Microsoft.Rest.ClientRuntime",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.AspNetCore.Mvc.NewtonsoftJson from 9.0.0 to 8.0.11. Reference the package directly from the project to select a different version. \n Basket.API -> Swashbuckle.AspNetCore.Newtonsoft 7.2.0 -> Microsoft.AspNetCore.Mvc.NewtonsoftJson (>= 9.0.0) \n Basket.API -> Microsoft.AspNetCore.Mvc.NewtonsoftJson (>= 8.0.11)",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Basket/Basket.API/Basket.API.csproj",
-      "libraryId": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

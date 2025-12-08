@@ -31,6 +31,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -380,6 +388,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -719,6 +735,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1080,6 +1104,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1437,6 +1469,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1454,19 +1494,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -1790,6 +1830,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -1807,23 +1855,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
@@ -1831,11 +1879,11 @@
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.1, )"
+              "version": "[8.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.6, )"
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
@@ -2321,6 +2369,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -2362,11 +2418,11 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.HealthChecks": {
               "target": "Package",
@@ -2374,7 +2430,7 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

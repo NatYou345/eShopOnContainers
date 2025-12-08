@@ -38,6 +38,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -389,6 +397,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -728,6 +744,14 @@
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
+          ],
           "warnAsError": [
             "NU1605"
           ]

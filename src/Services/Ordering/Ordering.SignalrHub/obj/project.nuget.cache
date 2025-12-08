@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "j/c+14PItVk=",
-  "success": false,
+  "dgSpecHash": "FHBWiofH2gw=",
+  "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.azureservicebus/8.0.0/aspnetcore.healthchecks.azureservicebus.8.0.0.nupkg.sha512",
@@ -31,8 +31,8 @@
     "/home/runner/.nuget/packages/microsoft.applicationinsights.perfcountercollector/2.22.0/microsoft.applicationinsights.perfcountercollector.2.22.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.applicationinsights.windowsserver/2.22.0/microsoft.applicationinsights.windowsserver.2.22.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.applicationinsights.windowsserver.telemetrychannel/2.22.0/microsoft.applicationinsights.windowsserver.telemetrychannel.2.22.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.11/microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/8.0.11/microsoft.aspnetcore.authentication.openidconnect.8.0.11.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.0/microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/9.0.0/microsoft.aspnetcore.authentication.openidconnect.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.aspnetcore.authorization/8.0.11/microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.aspnetcore.healthchecks/1.0.0/microsoft.aspnetcore.healthchecks.1.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.aspnetcore.signalr.stackexchangeredis/8.0.11/microsoft.aspnetcore.signalr.stackexchangeredis.8.0.11.nupkg.sha512",
@@ -46,13 +46,13 @@
     "/home/runner/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.27/microsoft.extensions.diagnosticadapter.3.1.27.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.healthchecks/1.0.0/microsoft.extensions.healthchecks.1.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.applicationinsights/2.22.0/microsoft.extensions.logging.applicationinsights.2.22.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.logging.azureappservices/8.0.11/microsoft.extensions.logging.azureappservices.8.0.11.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.abstractions/7.1.2/microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.1.2/microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.logging/7.1.2/microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.identitymodel.tokens/7.1.2/microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging.azureappservices/9.0.0/microsoft.extensions.logging.azureappservices.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.abstractions/8.0.1/microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.0.1/microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.logging/8.0.1/microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.net.stringtools/17.4.0/microsoft.net.stringtools.17.4.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.app/1.0.5/microsoft.netcore.app.1.0.5.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.netcore.dotnethost/1.0.1/microsoft.netcore.dotnethost.1.0.1.nupkg.sha512",
@@ -79,7 +79,7 @@
     "/home/runner/.nuget/packages/serilog.extensions.logging/9.0.0/serilog.extensions.logging.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.formatting.compact/3.0.0/serilog.formatting.compact.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.settings.configuration/9.0.0/serilog.settings.configuration.9.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.console/6.0.0/serilog.sinks.console.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.http/8.0.0/serilog.sinks.http.8.0.0.nupkg.sha512",
@@ -90,7 +90,7 @@
     "/home/runner/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.performancecounter/6.0.0/system.diagnostics.performancecounter.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.identitymodel.tokens.jwt/7.1.2/system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/system.io.filesystem.accesscontrol/4.7.0/system.io.filesystem.accesscontrol.4.7.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
     "/home/runner/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
@@ -98,125 +98,5 @@
     "/home/runner/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/yamldotnet/12.3.1/yamldotnet.12.3.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1510",
-      "level": "Warning",
-      "message": "PackageReference Microsoft.AspNetCore.Authorization will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Microsoft.AspNetCore.Authorization",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Ordering.SignalrHub depends on Serilog.AspNetCore (>= 8.0.11) but Serilog.AspNetCore 8.0.11 was not found. Serilog.AspNetCore 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Serilog.AspNetCore",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "message": "Ordering.SignalrHub depends on Serilog.Settings.Configuration (>= 8.0.11) but Serilog.Settings.Configuration 8.0.11 was not found. Serilog.Settings.Configuration 9.0.0 was resolved instead.",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Serilog.Settings.Configuration",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'KubernetesClient' 10.0.16 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w7r3-mgwf-4mqq",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "KubernetesClient",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'MessagePack' 2.5.108 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4qm4-8hg2-g2xm",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "MessagePack",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-7mfr-774f-w5r9",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-8884-xcr4-r68p",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.Jit' 1.0.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-xcvr-qv8h-m7xw",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Microsoft.NETCore.Jit",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Serilog.Sinks.Console from 6.0.0 to 5.0.1. Reference the package directly from the project to select a different version. \n Ordering.SignalrHub -> Serilog.AspNetCore 9.0.0 -> Serilog.Sinks.Console (>= 6.0.0) \n Ordering.SignalrHub -> Serilog.Sinks.Console (>= 5.0.1)",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.SignalrHub/Ordering.SignalrHub.csproj",
-      "libraryId": "Serilog.Sinks.Console",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

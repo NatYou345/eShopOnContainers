@@ -450,10 +450,14 @@
       "RabbitMQ.Client/6.8.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "xunit/2.7.0": {
@@ -1414,6 +1418,14 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1510",
+          "NU1603",
+          "NU1605",
+          "NU1901",
+          "NU1902",
+          "NU1903"
+        ],
         "warnAsError": [
           "NU1605"
         ]

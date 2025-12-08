@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cAXbsQ+++Ys=",
+  "dgSpecHash": "RxR90gTJiXU=",
   "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "/home/runner/.nuget/packages/microsoft.codeanalysis.common/1.3.0/microsoft.codeanalysis.common.1.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.codeanalysis.csharp/1.3.0/microsoft.codeanalysis.csharp.1.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.codeanalysis.visualbasic/1.3.0/microsoft.codeanalysis.visualbasic.1.3.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0/microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.27/microsoft.extensions.diagnosticadapter.3.1.27.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.healthchecks/1.0.0/microsoft.extensions.healthchecks.1.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.applicationinsights/2.22.0/microsoft.extensions.logging.applicationinsights.2.22.0.nupkg.sha512",
@@ -60,14 +60,14 @@
     "/home/runner/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/home/runner/.nuget/packages/prometheus-net/7.0.0/prometheus-net.7.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/runtime.native.system.security.cryptography/4.0.1/runtime.native.system.security.cryptography.4.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog/4.2.0/serilog.4.2.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.aspnetcore/8.0.1/serilog.aspnetcore.8.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.enrichers.environment/2.3.0/serilog.enrichers.environment.2.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.formatting.compact/2.0.0/serilog.formatting.compact.2.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.settings.configuration/8.0.4/serilog.settings.configuration.8.0.4.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.settings.configuration/9.0.0/serilog.settings.configuration.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.console/6.0.0/serilog.sinks.console.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.http/8.0.0/serilog.sinks.http.8.0.0.nupkg.sha512",
@@ -81,66 +81,5 @@
     "/home/runner/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/yamldotnet/12.3.1/yamldotnet.12.3.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "Package 'KubernetesClient' 10.0.16 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w7r3-mgwf-4mqq",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "libraryId": "KubernetesClient",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-7mfr-774f-w5r9",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.App' 1.0.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-8884-xcr4-r68p",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "libraryId": "Microsoft.NETCore.App",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Microsoft.NETCore.Jit' 1.0.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-xcvr-qv8h-m7xw",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "libraryId": "Microsoft.NETCore.Jit",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
