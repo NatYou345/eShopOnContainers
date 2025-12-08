@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jFIGKnOxksI=",
+  "dgSpecHash": "sJtNqiJZ6c4=",
   "success": true,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [
@@ -14,10 +14,20 @@
     "/home/runner/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/polly/8.3.1/polly.8.3.1.nupkg.sha512",
     "/home/runner/.nuget/packages/polly.core/8.3.1/polly.core.8.3.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.diagnostics.diagnosticsource/7.0.2/system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/home/runner/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "GtMC2ntSL1k=",
-  "success": true,
+  "dgSpecHash": "LjLYveJUgao=",
+  "success": false,
   "projectFilePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/aspnetcore.healthchecks.azureservicebus/8.0.0/aspnetcore.healthchecks.azureservicebus.8.0.0.nupkg.sha512",
@@ -21,39 +21,38 @@
     "/home/runner/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.azure.amqp/2.6.5/microsoft.azure.amqp.2.6.5.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration.commandline/8.0.0/microsoft.extensions.configuration.commandline.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration.environmentvariables/8.0.0/microsoft.extensions.configuration.environmentvariables.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.configuration.usersecrets/8.0.0/microsoft.extensions.configuration.usersecrets.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0/microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.diagnostics/8.0.0/microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/8.0.0/microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.hosting/8.0.0/microsoft.extensions.hosting.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.hosting.abstractions/9.0.0/microsoft.extensions.hosting.abstractions.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.configuration/8.0.0/microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.console/8.0.0/microsoft.extensions.logging.console.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.debug/8.0.0/microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.eventlog/8.0.0/microsoft.extensions.logging.eventlog.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.logging.eventsource/8.0.0/microsoft.extensions.logging.eventsource.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identity.client/4.47.2/microsoft.identity.client.4.47.2.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identity.client.extensions.msal/2.19.3/microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.abstractions/6.24.0/microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",
@@ -63,10 +62,7 @@
     "/home/runner/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.24.0/microsoft.identitymodel.protocols.openidconnect.6.24.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.identitymodel.tokens/6.24.0/microsoft.identitymodel.tokens.6.24.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/polly/8.3.1/polly.8.3.1.nupkg.sha512",
     "/home/runner/.nuget/packages/polly.core/8.3.1/polly.core.8.3.1.nupkg.sha512",
@@ -75,46 +71,138 @@
     "/home/runner/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/runner/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/runner/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.aspnetcore/8.0.1/serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog/4.2.0/serilog.4.2.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.aspnetcore/9.0.0/serilog.aspnetcore.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.enrichers.environment/2.3.0/serilog.enrichers.environment.2.3.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.formatting.compact/2.0.0/serilog.formatting.compact.2.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.settings.configuration/8.0.4/serilog.settings.configuration.8.0.4.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.extensions.hosting/9.0.0/serilog.extensions.hosting.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.extensions.logging/9.0.0/serilog.extensions.logging.9.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.formatting.compact/3.0.0/serilog.formatting.compact.3.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.settings.configuration/9.0.0/serilog.settings.configuration.9.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/serilog.sinks.file/6.0.0/serilog.sinks.file.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.http/8.0.0/serilog.sinks.http.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.periodicbatching/4.0.0/serilog.sinks.periodicbatching.4.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/serilog.sinks.seq/7.0.0/serilog.sinks.seq.7.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "/home/runner/.nuget/packages/system.data.sqlclient/4.8.6/system.data.sqlclient.4.8.6.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.formats.asn1/5.0.0/system.formats.asn1.5.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.identitymodel.tokens.jwt/6.24.0/system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
     "/home/runner/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.runtime.caching/6.0.0/system.runtime.caching.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.security.cryptography.cng/5.0.0/system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/runner/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Ordering.BackgroundTasks depends on Serilog.AspNetCore (>= 8.0.11) but Serilog.AspNetCore 8.0.11 was not found. Serilog.AspNetCore 9.0.0 was resolved instead.",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Serilog.AspNetCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Ordering.BackgroundTasks depends on Serilog.Settings.Configuration (>= 8.0.11) but Serilog.Settings.Configuration 8.0.11 was not found. Serilog.Settings.Configuration 9.0.0 was resolved instead.",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Serilog.Settings.Configuration",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Azure.Identity' 1.7.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Data.SqlClient' 5.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Serilog.Sinks.Console from 6.0.0 to 5.0.1. Reference the package directly from the project to select a different version. \n Ordering.BackgroundTasks -> Serilog.AspNetCore 9.0.0 -> Serilog.Sinks.Console (>= 6.0.0) \n Ordering.BackgroundTasks -> Serilog.Sinks.Console (>= 5.0.1)",
+      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "filePath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.BackgroundTasks/Ordering.BackgroundTasks.csproj",
+      "libraryId": "Serilog.Sinks.Console",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
