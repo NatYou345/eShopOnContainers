@@ -70,12 +70,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Fractions.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.1/Fractions.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -83,12 +83,12 @@
         "type": "package",
         "compile": {
           "lib/net5.0/IdentityModel.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net5.0/IdentityModel.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -98,10 +98,14 @@
           "IdentityModel": "5.2.0"
         },
         "compile": {
-          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {
+            "related": ".xml"
+          }
         }
       },
       "KubernetesClient/10.0.16": {
@@ -455,14 +459,10 @@
           "Microsoft.CodeAnalysis.Analyzers": "1.1.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp/1.3.0": {
@@ -471,14 +471,10 @@
           "Microsoft.CodeAnalysis.Common": "[1.3.0]"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.VisualBasic/1.3.0": {
@@ -487,14 +483,10 @@
           "Microsoft.CodeAnalysis.Common": "1.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyModel/9.0.0": {
@@ -750,14 +742,10 @@
       "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
       "Pipelines.Sockets.Unofficial/2.2.8": {
@@ -966,10 +954,14 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Serilog.Sinks.PeriodicBatching/4.0.0": {
@@ -2694,25 +2686,33 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
+      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj",
       "projectName": "WebMVC",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/WebMVC.csproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Web/WebMVC/obj/",
+      "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Web\\WebMVC\\WebMVC.csproj",
+      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Web\\WebMVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\NuGet.Config",
+        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -2720,8 +2720,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/Devspaces.Support/Devspaces.Support.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\Devspaces.Support\\Devspaces.Support.csproj"
             }
           }
         }
@@ -2744,7 +2744,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -2842,7 +2842,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

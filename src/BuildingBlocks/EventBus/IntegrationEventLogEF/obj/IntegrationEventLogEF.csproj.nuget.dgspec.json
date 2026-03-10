@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj": {}
+    "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {}
   },
   "projects": {
-    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+    "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
         "projectName": "EventBus",
-        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -48,7 +55,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -69,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -347,23 +354,30 @@
         }
       }
     },
-    "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj": {
+    "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
         "projectName": "IntegrationEventLogEF",
-        "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\NuGet.Config",
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -371,8 +385,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
-                "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -395,7 +409,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -434,7 +448,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

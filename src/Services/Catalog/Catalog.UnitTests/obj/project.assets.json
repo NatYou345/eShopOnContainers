@@ -369,14 +369,10 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Humanizer.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Humanizer.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Humanizer.dll": {}
         }
       },
       "KubernetesClient/17.0.14": {
@@ -818,12 +814,12 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         }
       },
@@ -836,12 +832,12 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         }
       },
@@ -853,12 +849,12 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "build": {
@@ -1090,14 +1086,10 @@
           "Microsoft.CodeAnalysis.Common": "1.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.Workspaces.Common/4.8.0": {
@@ -1565,14 +1557,10 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "3.1.24"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Binder/9.0.2": {
@@ -2290,15 +2278,11 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/8.15.0": {
@@ -2506,12 +2490,12 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         }
       },
@@ -2524,12 +2508,12 @@
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
-            "related": ".runtimeconfig.json;.xml"
+            "related": ".runtimeconfig.json"
           }
         }
       },
@@ -2849,12 +2833,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -9251,25 +9235,33 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Catalog/Catalog.UnitTests/Catalog.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
       "projectName": "Catalog.UnitTests",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Catalog/Catalog.UnitTests/Catalog.UnitTests.csproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Catalog/Catalog.UnitTests/obj/",
+      "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.UnitTests\\Catalog.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\NuGet.Config",
+        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -9277,8 +9269,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Catalog/Catalog.API/Catalog.API.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj"
             }
           }
         }
@@ -9301,7 +9293,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -9350,7 +9342,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
