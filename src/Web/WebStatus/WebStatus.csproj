@@ -24,6 +24,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="KubernetesClient" Version="17.0.14" />
     <Content Update="appsettings.Development.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
