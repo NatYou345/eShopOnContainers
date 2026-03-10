@@ -954,14 +954,10 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
         }
       },
       "Serilog.Sinks.PeriodicBatching/4.0.0": {

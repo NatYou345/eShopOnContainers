@@ -582,7 +582,9 @@
           "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
@@ -1155,14 +1157,10 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {}
         }
       },
       "Serilog.Sinks.PeriodicBatching/4.0.0": {
@@ -1344,10 +1342,14 @@
       "System.Memory.Data/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {}
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {}
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.ProtectedData/6.0.0": {
