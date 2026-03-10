@@ -233,14 +233,10 @@
       "FluentValidation/11.5.1": {
         "type": "package",
         "compile": {
-          "lib/net7.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/FluentValidation.dll": {}
         },
         "runtime": {
-          "lib/net7.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/FluentValidation.dll": {}
         }
       },
       "FluentValidation.AspNetCore/11.3.0": {
@@ -250,14 +246,10 @@
           "FluentValidation.DependencyInjectionExtensions": "11.5.1"
         },
         "compile": {
-          "lib/net6.0/FluentValidation.AspNetCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {}
         },
         "runtime": {
-          "lib/net6.0/FluentValidation.AspNetCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -269,14 +261,10 @@
           "FluentValidation": "11.5.1"
         },
         "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "Fractions/7.3.0": {
@@ -363,14 +351,10 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Humanizer.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Humanizer.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Humanizer.dll": {}
         }
       },
       "KubernetesClient/17.0.14": {
@@ -937,14 +921,10 @@
           "Microsoft.CodeAnalysis.Common": "1.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.Workspaces.Common/4.8.0": {
@@ -1545,12 +1525,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1595,12 +1575,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -6276,25 +6256,33 @@
     ]
   },
   "packageFolders": {
-    "/home/runner/.nuget/packages/": {}
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.API/Ordering.API.csproj",
+      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
       "projectName": "Ordering.API",
-      "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.API/Ordering.API.csproj",
-      "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.API/obj/",
+      "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/runner/work/eShopOnContainers/eShopOnContainers/src/NuGet.config",
-        "/home/runner/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\NuGet.Config",
+        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6302,26 +6290,26 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/WebHost.Customization.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/BuildingBlocks/WebHostCustomization/WebHost.Customization/WebHost.Customization.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\WebHostCustomization\\WebHost.Customization\\WebHost.Customization.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
             },
-            "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj": {
-              "projectPath": "/home/runner/work/eShopOnContainers/eShopOnContainers/src/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj"
+            "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
             }
           }
         }
@@ -6344,7 +6332,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -6492,7 +6480,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

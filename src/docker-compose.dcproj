@@ -19,4 +19,7 @@
     </None>
     <None Include="docker-compose.yml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".github\upgrades\scenarios\new-dotnet-version_124d44\" />
+  </ItemGroup>
 </Project>
