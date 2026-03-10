@@ -1,4 +1,4 @@
-﻿global using Basket.API.IntegrationEvents.Events;
+global using Basket.API.IntegrationEvents.Events;
 global using Basket.API.Model;
 global using Microsoft.AspNetCore.Http;
 global using Microsoft.AspNetCore.Mvc;

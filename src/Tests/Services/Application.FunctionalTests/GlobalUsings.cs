@@ -1,4 +1,4 @@
-﻿global using Microsoft.AspNetCore.TestHost;
+global using Microsoft.AspNetCore.TestHost;
 global using System;
 global using System.Net.Http;
 global using Microsoft.AspNetCore.Http;

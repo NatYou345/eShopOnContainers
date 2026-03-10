@@ -956,14 +956,10 @@
           "Microsoft.CodeAnalysis.Analyzers": "1.1.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp/1.3.0": {
@@ -972,14 +968,10 @@
           "Microsoft.CodeAnalysis.Common": "[1.3.0]"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.VisualBasic/1.3.0": {
@@ -988,14 +980,10 @@
           "Microsoft.CodeAnalysis.Common": "1.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
       "Microsoft.CodeCoverage/18.3.0": {

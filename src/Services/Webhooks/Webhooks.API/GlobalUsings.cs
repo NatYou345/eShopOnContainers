@@ -25,7 +25,7 @@ global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.Extensions.Diagnostics.HealthChecks;
 global using Microsoft.Extensions.Hosting;
 global using Microsoft.Extensions.Logging;
-global using Microsoft.OpenApi.Models;
+global using Microsoft.OpenApi;
 global using RabbitMQ.Client;
 global using Swashbuckle.AspNetCore.SwaggerGen;
 global using System.Collections.Generic;

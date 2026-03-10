@@ -1,4 +1,4 @@
-﻿global using System;
+global using System;
 global using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Models;
 global using MediatR;
 global using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;

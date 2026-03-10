@@ -1,4 +1,4 @@
-﻿global using Basket.FunctionalTests.Base;
+global using Basket.FunctionalTests.Base;
 global using Microsoft.AspNetCore.Builder;
 global using Microsoft.AspNetCore.Hosting;
 global using Microsoft.AspNetCore.Http;

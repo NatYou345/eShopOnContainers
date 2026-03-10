@@ -58,6 +58,6 @@ global using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
 global using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
 global using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.EventHandling;
 global using Microsoft.Extensions.Diagnostics.HealthChecks;
-global using Microsoft.OpenApi.Models;
+global using Microsoft.OpenApi;
 global using RabbitMQ.Client;
 global using System.Reflection;

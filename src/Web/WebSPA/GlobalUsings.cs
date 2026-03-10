@@ -1,4 +1,4 @@
-﻿global using eShopConContainers.WebSPA;
+global using eShopConContainers.WebSPA;
 global using Microsoft.AspNetCore;
 global using Microsoft.AspNetCore.Hosting;
 global using Microsoft.Extensions.Configuration;

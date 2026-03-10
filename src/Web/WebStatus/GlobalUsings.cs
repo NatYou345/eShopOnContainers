@@ -1,4 +1,4 @@
-﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.Extensions.Configuration;
 global using System.Linq;
 global using Microsoft.AspNetCore;

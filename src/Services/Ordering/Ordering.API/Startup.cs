@@ -178,7 +178,17 @@ static class CustomExtensionsMethods
         {
             hcBuilder
                 .AddRabbitMQ(
-                    $"amqp://{configuration["EventBusConnection"]}",
+                    sp =>
+                    {
+                        var cfg = sp.GetRequiredService<IConfiguration>();
+                        var factory = new ConnectionFactory()
+                        {
+                            HostName = cfg["EventBusConnection"] ?? "localhost",
+                            UserName = cfg["EventBusUserName"] ?? "guest",
+                            Password = cfg["EventBusPassword"] ?? "guest"
+                        };
+                        return factory.CreateConnectionAsync().GetAwaiter().GetResult();
+                    },
                     name: "ordering-rabbitmqbus-check",
                     tags: new string[] { "rabbitmqbus" });
         }

@@ -1,4 +1,4 @@
-﻿global using Devspaces.Support;
+global using Devspaces.Support;
 global using HealthChecks.UI.Client;
 global using Microsoft.AspNetCore.Authentication.Cookies;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
