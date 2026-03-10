@@ -2135,12 +2135,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -2959,6 +2959,7 @@
           "Microsoft.AspNetCore.HealthChecks": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "10.0.3",
           "Microsoft.Extensions.Logging.AzureAppServices": "10.0.3",
+          "Microsoft.OpenApi": "2.4.1",
           "Serilog.AspNetCore": "10.0.0",
           "Serilog.Enrichers.Environment": "3.0.1",
           "Serilog.Settings.Configuration": "10.0.0",

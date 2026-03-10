@@ -1158,12 +1158,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -1193,12 +1193,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -4814,6 +4814,7 @@
       "Microsoft.AspNetCore.HealthChecks >= 1.0.0",
       "Microsoft.Extensions.Logging.AzureAppServices >= 10.0.3",
       "Microsoft.NETCore.Platforms >= 7.0.4",
+      "Microsoft.OpenApi >= 2.4.1",
       "Ordering.Domain >= 1.0.0",
       "Ordering.Infrastructure >= 1.0.0",
       "Polly >= 8.6.6",
@@ -4995,6 +4996,10 @@
           "Microsoft.NETCore.Platforms": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "Polly": {
             "target": "Package",

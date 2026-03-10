@@ -12,6 +12,9 @@
       Safe version: 2.3.24+
     -->
     <PackageReference Update="Microsoft.Rest.ClientRuntime" Version="2.3.24" />
+
+    <!-- Fix for Microsoft.OpenApi version mismatch with Swashbuckle 10.x -->
+    <PackageReference Update="Microsoft.OpenApi" Version="2.4.1" />
     
     <!--
       Fix for System.Text.Json vulnerabilities (CVE-2024-21319)

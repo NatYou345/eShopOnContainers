@@ -34,8 +34,7 @@ public class Startup
                 var logger = sp.GetRequiredService<ILogger<DefaultRabbitMQPersistentConnection>>();
                 var factory = new ConnectionFactory()
                 {
-                    HostName = Configuration["EventBusConnection"],
-                    DispatchConsumersAsync = true
+                    HostName = Configuration["EventBusConnection"]
                 };
 
                 if (!string.IsNullOrEmpty(Configuration["EventBusUserName"]))

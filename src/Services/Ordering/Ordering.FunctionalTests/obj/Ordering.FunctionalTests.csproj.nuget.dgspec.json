@@ -2533,6 +2533,10 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[8.6.6, )"

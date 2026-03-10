@@ -1,4 +1,4 @@
-﻿using Autofac;
+using Autofac;
 using Azure.Messaging.ServiceBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
@@ -78,8 +78,7 @@ namespace Ordering.BackgroundTasks.Extensions
                     var factory = new ConnectionFactory()
                     {
                         HostName = configuration["EventBusConnection"],
-                        DispatchConsumersAsync = true
-                    };
+                        };
 
                     if (!string.IsNullOrEmpty(configuration["EventBusUserName"]))
                     {

@@ -60,8 +60,7 @@ public class Startup
                 var factory = new ConnectionFactory()
                 {
                     HostName = Configuration["EventBusConnection"],
-                    DispatchConsumersAsync = true
-                };
+                    };
 
                 if (!string.IsNullOrEmpty(Configuration["EventBusUserName"]))
                 {
