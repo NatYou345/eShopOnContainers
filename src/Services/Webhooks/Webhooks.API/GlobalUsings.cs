@@ -1,4 +1,4 @@
-﻿global using Autofac.Extensions.DependencyInjection;
+global using Autofac.Extensions.DependencyInjection;
 global using Autofac;
 global using Devspaces.Support;
 global using HealthChecks.UI.Client;

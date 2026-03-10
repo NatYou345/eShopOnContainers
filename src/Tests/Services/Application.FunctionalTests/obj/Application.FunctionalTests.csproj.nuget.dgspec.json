@@ -3036,7 +3036,12 @@
         },
         "warningProperties": {
           "noWarn": [
-            "NU1605"
+            "NU1510",
+            "NU1603",
+            "NU1605",
+            "NU1901",
+            "NU1902",
+            "NU1903"
           ],
           "warnAsError": [
             "NU1605"
@@ -3151,6 +3156,10 @@
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

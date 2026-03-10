@@ -16,6 +16,7 @@
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\FINAL-REPORT.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\NEXT-STEPS.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\SECURITY-ANALYSIS.md" />
+    <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\STATUS-AND-RECOMMENDATIONS.md" />
     <None Include=".github\workflows\composite\build-test\action.yml" />
     <None Include=".github\workflows\dotnet10-ci.yml" />
     <None Include="docker-compose.override.yml">

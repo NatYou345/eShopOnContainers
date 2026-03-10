@@ -1,4 +1,4 @@
-﻿global using ApiModels = Microsoft.eShopOnContainers.Services.Ordering.API.Application.Models;
+global using ApiModels = Microsoft.eShopOnContainers.Services.Ordering.API.Application.Models;
 global using AppCommand = Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
 global using Autofac.Extensions.DependencyInjection;
 global using Autofac;

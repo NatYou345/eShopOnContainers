@@ -1,4 +1,4 @@
-﻿global using CatalogApi;
+global using CatalogApi;
 global using Devspaces.Support;
 global using Grpc.Core.Interceptors;
 global using Grpc.Core;

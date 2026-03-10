@@ -1,4 +1,4 @@
-ï»¿global using Azure.Core;
+global using Azure.Core;
 global using Azure.Identity;
 global using Autofac.Extensions.DependencyInjection;
 global using Autofac;
@@ -9,7 +9,7 @@ global using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents;
 global using Grpc.Core;
 global using Microsoft.AspNetCore.Hosting;
 global using Microsoft.AspNetCore.Http;
-globalÂ usingÂ Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Builder;
 global using Microsoft.AspNetCore.Mvc.Filters;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Server.Kestrel.Core;
