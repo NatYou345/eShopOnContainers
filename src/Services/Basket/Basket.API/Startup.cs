@@ -97,8 +97,7 @@ public class Startup
 
                 var factory = new ConnectionFactory()
                 {
-                    HostName = Configuration["EventBusConnection"],
-                    DispatchConsumersAsync = true
+                    HostName = Configuration["EventBusConnection"]
                 };
 
                 if (!string.IsNullOrEmpty(Configuration["EventBusUserName"]))

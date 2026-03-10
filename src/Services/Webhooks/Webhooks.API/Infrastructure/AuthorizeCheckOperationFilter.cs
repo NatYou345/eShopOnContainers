@@ -13,13 +13,13 @@ public class AuthorizeCheckOperationFilter : IOperationFilter
         operation.Responses.TryAdd("401", new OpenApiResponse { Description = "Unauthorized" });
         operation.Responses.TryAdd("403", new OpenApiResponse { Description = "Forbidden" });
 
-        var oAuthScheme = new OpenApiSecuritySchemeReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" };
+        var oAuthScheme = new OpenApiSecuritySchemeReference("oauth2", null);
 
         operation.Security = new List<OpenApiSecurityRequirement>
             {
                 new()
                 {
-                    [ oAuthScheme ] = new [] { "webhooksapi" }
+                    [ oAuthScheme ] = new List<string> { "webhooksapi" }
                 }
             };
     }

@@ -15,13 +15,13 @@ namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Filters
                 operation.Responses.TryAdd("401", new OpenApiResponse { Description = "Unauthorized" });
                 operation.Responses.TryAdd("403", new OpenApiResponse { Description = "Forbidden" });
 
-                var oAuthScheme = new OpenApiSecuritySchemeReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" };
+                var oAuthScheme = new OpenApiSecuritySchemeReference("oauth2", null);
 
                 operation.Security = new List<OpenApiSecurityRequirement>
             {
                 new()
                 {
-                    [ oAuthScheme ] = new[] { "Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator" }
+                    [ oAuthScheme ] = new List<string> { "Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator" }
                 }
             };
             }

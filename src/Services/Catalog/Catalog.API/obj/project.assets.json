@@ -1324,12 +1324,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2041,14 +2041,10 @@
       "System.IO.Hashing/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.IO.Hashing.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.IO.Hashing.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}

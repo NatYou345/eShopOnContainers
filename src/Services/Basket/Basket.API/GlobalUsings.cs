@@ -43,7 +43,7 @@ global using Microsoft.Extensions.Diagnostics.HealthChecks;
 global using Microsoft.Extensions.Hosting;
 global using Microsoft.Extensions.Logging;
 global using Microsoft.Extensions.Options;
-global using Microsoft.OpenApi.Models;
+global using Microsoft.OpenApi;
 global using RabbitMQ.Client;
 global using Serilog.Context;
 global using Serilog;

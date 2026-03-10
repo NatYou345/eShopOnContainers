@@ -2587,12 +2587,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -3275,14 +3275,10 @@
       "System.IO.Hashing/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.IO.Hashing.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.IO.Hashing.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -3388,14 +3384,10 @@
       "xunit.abstractions/2.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
         }
       },
       "xunit.analyzers/1.18.0": {
@@ -3560,7 +3552,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.3",
           "Microsoft.Extensions.Logging.AzureAppServices": "10.0.3",
-          "Microsoft.OpenApi": "1.7.4",
+          "Microsoft.OpenApi": "2.4.1",
           "Serilog.AspNetCore": "10.0.0",
           "Serilog.Enrichers.Environment": "3.0.1",
           "Serilog.Settings.Configuration": "10.0.0",
