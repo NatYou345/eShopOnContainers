@@ -1,4 +1,8 @@
-﻿using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Options;
+using Polly;
+using Polly.Retry;
+using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
 
 namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
 

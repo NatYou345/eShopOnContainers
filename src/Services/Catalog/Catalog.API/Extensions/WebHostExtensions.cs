@@ -1,4 +1,7 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Extensions;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+
+namespace Microsoft.eShopOnContainers.Services.Catalog.API.Extensions;
 
 public static class WebHostExtensions
 {

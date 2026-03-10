@@ -67,7 +67,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -75,11 +75,11 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.1, )"
+              "version": "[8.6.6, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -443,11 +443,11 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
-              "version": "[7.18.1, )"
+              "version": "[7.20.1, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -455,7 +455,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -1165,19 +1165,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -1533,23 +1535,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
@@ -1557,11 +1561,11 @@
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.6.0, )"
+              "version": "[8.6.6, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.9.0, )"
+              "version": "[4.9.1, )"
             }
           },
           "imports": [
@@ -2086,7 +2090,7 @@
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
@@ -2102,40 +2106,40 @@
             },
             "Azure.Extensions.AspNetCore.Configuration.Secrets": {
               "target": "Package",
-              "version": "[1.3.2, )"
+              "version": "[1.5.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.17.1, )"
+              "version": "[1.18.0, )"
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.37, )"
+              "version": "[2.1.72, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[11.3.0, )"
+              "version": "[11.3.1, )"
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.33.2, )"
+              "version": "[3.34.0, )"
             },
             "Grpc.AspNetCore.Server": {
               "target": "Package",
-              "version": "[2.71.0, )"
+              "version": "[2.76.0, )"
             },
             "Grpc.Tools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.76.0, )"
+              "version": "[2.78.0, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[13.1.2, )"
+              "version": "[14.1.0, )"
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.23.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.ApplicationInsights.DependencyCollector": {
               "target": "Package",
@@ -2147,11 +2151,11 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.AspNetCore.HealthChecks": {
               "target": "Package",
@@ -2159,7 +2163,7 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
@@ -2167,11 +2171,11 @@
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.6.0, )"
+              "version": "[8.6.6, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -2179,15 +2183,15 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[9.2.0, )"
+              "version": "[9.2.1, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
@@ -2195,11 +2199,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.9.0, )"
+              "version": "[10.1.5, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[6.9.0, )"
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
@@ -2699,7 +2703,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[13.1.0, )"
+              "version": "[14.1.0, )"
             }
           },
           "imports": [
@@ -3059,19 +3063,19 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[14.0.0, )"
+              "version": "[14.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -3437,11 +3441,11 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[14.0.0, )"
+              "version": "[14.1.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.11.0, )"
+              "version": "[18.3.0, )"
             },
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
@@ -3459,7 +3463,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.8.2, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

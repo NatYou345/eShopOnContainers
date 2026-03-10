@@ -67,7 +67,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -75,11 +75,11 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.1, )"
+              "version": "[8.6.6, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -443,11 +443,11 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
-              "version": "[7.18.1, )"
+              "version": "[7.20.1, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -455,7 +455,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -1165,19 +1165,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -1546,47 +1548,47 @@
           "dependencies": {
             "AspNetCore.HealthChecks.AzureServiceBus": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Azure.Extensions.AspNetCore.Configuration.Secrets": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.17.1, )"
+              "version": "[1.18.0, )"
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.22.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.ApplicationInsights.DependencyCollector": {
               "target": "Package",
-              "version": "[2.22.0, )"
+              "version": "[2.23.0, )"
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[6.1.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -1594,19 +1596,19 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.2.1, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

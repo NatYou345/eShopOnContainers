@@ -1,0 +1,10 @@
+[33me8c48c92[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m Security: Mitigate Dependabot vulnerabilities - Update Azure.Messaging.ServiceBus to 7.18.1, remove obsolete AzureKeyVault package, add Directory.Build.targets
+[33m4c727b9e[m[33m ([m[1;31morigin/dependabot/nuget/src/BuildingBlocks/EventBus/IntegrationEventLogEF/multi-f65e7031f7[m[33m)[m Bump Azure.Identity from 1.17.1 to 1.18.0
+[33mf431a98a[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Catalog/Catalog.API/Microsoft.EntityFrameworkCore.Proxies-10.0.3[m[33m)[m Bump Microsoft.EntityFrameworkCore.Proxies from 9.0.0 to 10.0.3
+[33m0ec463e8[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Basket/Basket.API/multi-bf13eead30[m[33m)[m Bump Microsoft.AspNetCore.Mvc.NewtonsoftJson from 9.0.0 to 10.0.3
+[33me7fb612d[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Basket/Basket.API/multi-e6fbdf5252[m[33m)[m Bump Microsoft.ApplicationInsights.AspNetCore from 2.23.0 to 3.0.0
+[33m07584480[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Catalog/Catalog.API/Microsoft.EntityFrameworkCore.Tools-10.0.2[m[33m)[m Bump Microsoft.EntityFrameworkCore.Tools from 9.0.0 to 10.0.2
+[33mb458560c[m[33m ([m[1;31morigin/dependabot/nuget/src/BuildingBlocks/EventBus/IntegrationEventLogEF/multi-9cf2e217db[m[33m)[m Bump Microsoft.EntityFrameworkCore and 2 others
+[33mf57831fb[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Basket/Basket.API/nuget-81e3d877a9[m[33m)[m Bump the nuget group with 3 updates
+[33mb4c3b8e5[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Basket/Basket.API/multi-7e88c68efa[m[33m)[m Bump Grpc.AspNetCore.Server from 2.71.0 to 2.76.0
+[33m15e09668[m[33m ([m[1;31morigin/dependabot/nuget/src/Services/Basket/Basket.API/nuget-670ed074d8[m[33m)[m Bump the nuget group with 10 updates
