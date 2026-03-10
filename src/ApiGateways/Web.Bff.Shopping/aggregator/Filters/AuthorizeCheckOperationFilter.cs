@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Filters
+namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Filters
 {
     namespace Basket.API.Infrastructure.Filters
     {
@@ -15,10 +15,7 @@
                 operation.Responses.TryAdd("401", new OpenApiResponse { Description = "Unauthorized" });
                 operation.Responses.TryAdd("403", new OpenApiResponse { Description = "Forbidden" });
 
-                var oAuthScheme = new OpenApiSecurityScheme
-                {
-                    Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" }
-                };
+                var oAuthScheme = new OpenApiSecuritySchemeReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" };
 
                 operation.Security = new List<OpenApiSecurityRequirement>
             {

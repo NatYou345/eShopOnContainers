@@ -1,4 +1,4 @@
-﻿namespace Basket.API.Infrastructure.Filters;
+namespace Basket.API.Infrastructure.Filters;
 
 public class AuthorizeCheckOperationFilter : IOperationFilter
 {
@@ -13,10 +13,7 @@ public class AuthorizeCheckOperationFilter : IOperationFilter
         operation.Responses.TryAdd("401", new OpenApiResponse { Description = "Unauthorized" });
         operation.Responses.TryAdd("403", new OpenApiResponse { Description = "Forbidden" });
 
-        var oAuthScheme = new OpenApiSecurityScheme
-        {
-            Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" }
-        };
+        var oAuthScheme = new OpenApiSecuritySchemeReference { Type = ReferenceType.SecurityScheme, Id = "oauth2" };
 
         operation.Security = new List<OpenApiSecurityRequirement>
             {
