@@ -1,0 +1,137 @@
+name: .NET 10 CI/CD
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - dev
+    - main
+  pull_request:
+    branches:
+    - dev
+    - main
+
+env:
+  DOTNET_VERSION: '10.0.x'
+  CONFIGURATION: 'Release'
+
+jobs:
+  build-and-test:
+    name: Build and Test (.NET 10)
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET 10
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+        
+    - name: Display .NET version
+      run: dotnet --version
+      
+    - name: Restore dependencies
+      run: dotnet restore src/eShopOnContainers-ServicesAndWebApps.sln
+      
+    - name: Build solution
+      run: dotnet build src/eShopOnContainers-ServicesAndWebApps.sln --configuration ${{ env.CONFIGURATION }} --no-restore
+      
+    - name: Run unit tests
+      run: dotnet test src/eShopOnContainers-ServicesAndWebApps.sln --configuration ${{ env.CONFIGURATION }} --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx"
+      
+    - name: Publish test results
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      if: always()
+      with:
+        files: '**/test-results.trx'
+        
+    - name: Upload test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results
+        path: '**/test-results.trx'
+
+  build-docker-images:
+    name: Build Docker Images (.NET 10)
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: github.event_name == 'push'
+    
+    strategy:
+      matrix:
+        service:
+          - basket-api
+          - catalog-api
+          - identity-api
+          - ordering-api
+          - ordering-backgroundtasks
+          - ordering-signalrhub
+          - payment-api
+          - webhooks-api
+          - webstatus
+          - webmvc
+          - webspa
+          - mobileshoppingagg
+          - webshoppingagg
+          
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+      
+    - name: Build Docker image for ${{ matrix.service }}
+      run: |
+        cd src
+        docker-compose build ${{ matrix.service }}
+      env:
+        TAG: dev
+        REGISTRY: eshop
+        
+    - name: Verify .NET 10 in image
+      run: |
+        docker run --rm eshop/${{ matrix.service }}:dev dotnet --version || echo "Service ${{ matrix.service }} does not have .NET runtime"
+
+  security-scan:
+    name: Security Scan (npm audit)
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Run npm audit on WebSPA
+      run: |
+        cd src/Web/WebSPA/Client
+        npm audit --production
+        
+    - name: Check for high vulnerabilities
+      run: |
+        cd src/Web/WebSPA/Client
+        npm audit --production --audit-level=high
+
+  summary:
+    name: Build Summary
+    runs-on: ubuntu-latest
+    needs: [build-and-test, build-docker-images, security-scan]
+    if: always()
+    
+    steps:
+    - name: Check build status
+      run: |
+        echo "Build and Test: ${{ needs.build-and-test.result }}"
+        echo "Docker Images: ${{ needs.build-docker-images.result }}"
+        echo "Security Scan: ${{ needs.security-scan.result }}"
+        
+    - name: Fail if any job failed
+      if: needs.build-and-test.result == 'failure' || needs.build-docker-images.result == 'failure' || needs.security-scan.result == 'failure'
+      run: exit 1

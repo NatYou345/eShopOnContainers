@@ -10,7 +10,8 @@ inputs:
     required: true
   dotnet_version:
     description: "Version of dotnet to use for testing"
-    required: true
+    required: false
+    default: '10.0.x'
   project_path:
     description: "Path to project to test e.g. Services/Catalog/Catalog.API"
     required: true
