@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LTjl9RHvsPg=",
+  "dgSpecHash": "BQ8CNMCSJig=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.UnitTests\\Ordering.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -121,7 +121,7 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.runtime.coreclr\\1.0.7\\microsoft.netcore.runtime.coreclr.1.0.7.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.targets\\1.0.3\\microsoft.netcore.targets.1.0.3.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.windows.apisets\\1.0.1\\microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.openapi\\3.4.0\\microsoft.openapi.3.4.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.3.0\\microsoft.testplatform.objectmodel.18.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.testplatform.testhost\\18.3.0\\microsoft.testplatform.testhost.18.3.0.nupkg.sha512",

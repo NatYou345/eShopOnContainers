@@ -1588,7 +1588,7 @@
             },
             "Microsoft.OpenApi": {
               "target": "Package",
-              "version": "[1.7.4, )"
+              "version": "[3.4.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

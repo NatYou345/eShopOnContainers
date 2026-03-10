@@ -1307,7 +1307,7 @@
           }
         }
       },
-      "Microsoft.OpenApi/2.4.1": {
+      "Microsoft.OpenApi/3.4.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -2041,10 +2041,14 @@
       "System.IO.Hashing/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Hashing.dll": {}
+          "lib/net6.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.IO.Hashing.dll": {}
+          "lib/net6.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -4723,10 +4727,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.OpenApi/2.4.1": {
-      "sha512": "u7QhXCISMQuab3flasb1hoaiERmUqyWsW7tmQODyILoQ7mJV5IRGM+2KKZYo0QUfC13evEOcHAb6TPWgqEQtrw==",
+    "Microsoft.OpenApi/3.4.0": {
+      "sha512": "5XsxYU401xZqrpBuSciVhYy4vzbzXM7zuYHjZDy+5QzYf6Iw9QdpFN/2E7WLT2gBcyz0BCKUNppm7ehWNfd8zQ==",
       "type": "package",
-      "path": "microsoft.openapi/2.4.1",
+      "path": "microsoft.openapi/3.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4737,7 +4741,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.4.1.nupkg.sha512",
+        "microsoft.openapi.3.4.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -5967,7 +5971,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.3",
       "Microsoft.Extensions.Logging.AzureAppServices >= 10.0.3",
-      "Microsoft.OpenApi >= 2.4.1",
+      "Microsoft.OpenApi >= 3.4.0",
       "Serilog.AspNetCore >= 10.0.0",
       "Serilog.Enrichers.Environment >= 3.0.1",
       "Serilog.Settings.Configuration >= 10.0.0",
@@ -6154,7 +6158,7 @@
           },
           "Microsoft.OpenApi": {
             "target": "Package",
-            "version": "[2.4.1, )"
+            "version": "[3.4.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",

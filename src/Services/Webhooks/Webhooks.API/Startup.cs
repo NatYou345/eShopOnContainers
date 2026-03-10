@@ -262,8 +262,7 @@ internal static class CustomExtensionMethods
 
                     var factory = new ConnectionFactory()
                     {
-                        HostName = configuration["EventBusConnection"],
-                        DispatchConsumersAsync = true
+                        HostName = configuration["EventBusConnection"]
                     };
 
                     if (!string.IsNullOrEmpty(configuration["EventBusUserName"]))

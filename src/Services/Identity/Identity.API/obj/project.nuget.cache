@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2r/LfTRK59U=",
+  "dgSpecHash": "Uk2uDYE5boU=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Identity\\Identity.API\\Identity.API.csproj",
   "expectedPackageFiles": [
@@ -83,7 +83,7 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.runtime.coreclr\\1.0.7\\microsoft.netcore.runtime.coreclr.1.0.7.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.targets\\1.0.3\\microsoft.netcore.targets.1.0.3.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.netcore.windows.apisets\\1.0.1\\microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.openapi\\3.4.0\\microsoft.openapi.3.4.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.8\\microsoft.rest.clientruntime.2.3.8.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.7\\microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",

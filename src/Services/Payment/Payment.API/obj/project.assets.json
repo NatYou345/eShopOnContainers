@@ -694,7 +694,7 @@
           }
         }
       },
-      "Microsoft.OpenApi/2.0.0": {
+      "Microsoft.OpenApi/3.4.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -2138,10 +2138,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.OpenApi/2.0.0": {
-      "sha512": "GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+    "Microsoft.OpenApi/3.4.0": {
+      "sha512": "5XsxYU401xZqrpBuSciVhYy4vzbzXM7zuYHjZDy+5QzYf6Iw9QdpFN/2E7WLT2gBcyz0BCKUNppm7ehWNfd8zQ==",
       "type": "package",
-      "path": "microsoft.openapi/2.0.0",
+      "path": "microsoft.openapi/3.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2152,7 +2152,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.0.0.nupkg.sha512",
+        "microsoft.openapi.3.4.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -2977,7 +2977,7 @@
       "Microsoft.ApplicationInsights.DependencyCollector >= 2.23.0",
       "Microsoft.ApplicationInsights.Kubernetes >= 8.0.0",
       "Microsoft.Extensions.Logging.AzureAppServices >= 10.0.3",
-      "Microsoft.OpenApi >= 1.7.4",
+      "Microsoft.OpenApi >= 3.4.0",
       "Serilog.AspNetCore >= 10.0.0",
       "Serilog.Enrichers.Environment >= 3.0.1",
       "Serilog.Settings.Configuration >= 10.0.0",
@@ -3102,7 +3102,7 @@
           },
           "Microsoft.OpenApi": {
             "target": "Package",
-            "version": "[1.7.4, )"
+            "version": "[3.4.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",

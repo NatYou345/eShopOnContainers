@@ -165,7 +165,7 @@
             },
             "Microsoft.OpenApi": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[3.4.0, )"
             },
             "Polly": {
               "target": "Package",
