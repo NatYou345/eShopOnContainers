@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JyY0oCkWN94=",
+  "dgSpecHash": "kIY0qyOX7f8=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [
@@ -93,7 +93,7 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\opentelemetry.persistentstorage.filesystem\\1.0.2\\opentelemetry.persistentstorage.filesystem.1.0.2.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly\\8.6.6\\polly.8.6.6.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly.core\\8.6.6\\polly.core.8.6.6.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\runtime.native.system.security.cryptography\\4.0.1\\runtime.native.system.security.cryptography.4.0.1.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
