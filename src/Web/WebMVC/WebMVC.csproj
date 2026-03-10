@@ -41,6 +41,9 @@
     <None Include="ViewModels\CampaignItem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="KubernetesClient" Version="17.0.14" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.3" />
+  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <ProjectReference Include="..\..\BuildingBlocks\Devspaces.Support\Devspaces.Support.csproj" />
   </ItemGroup>
 </Project>
