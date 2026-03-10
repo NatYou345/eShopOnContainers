@@ -447,7 +447,7 @@
             },
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
-              "version": "[7.17.4, )"
+              "version": "[7.18.1, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",

@@ -129,10 +129,10 @@
           }
         }
       },
-      "Azure.Core.Amqp/1.3.0": {
+      "Azure.Core.Amqp/1.3.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Amqp": "2.6.1",
+          "Microsoft.Azure.Amqp": "2.6.7",
           "System.Memory.Data": "1.0.2"
         },
         "compile": {
@@ -181,12 +181,12 @@
           }
         }
       },
-      "Azure.Messaging.ServiceBus/7.17.4": {
+      "Azure.Messaging.ServiceBus/7.18.1": {
         "type": "package",
         "dependencies": {
-          "Azure.Core": "1.38.0",
-          "Azure.Core.Amqp": "1.3.0",
-          "Microsoft.Azure.Amqp": "2.6.5",
+          "Azure.Core": "1.41.0",
+          "Azure.Core.Amqp": "1.3.1",
+          "Microsoft.Azure.Amqp": "2.6.7",
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "System.Memory.Data": "1.0.2"
         },
@@ -594,7 +594,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.Azure.Amqp/2.6.5": {
+      "Microsoft.Azure.Amqp/2.6.7": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Azure.Amqp.dll": {
@@ -605,64 +605,6 @@
           "lib/netstandard2.0/Microsoft.Azure.Amqp.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.Azure.KeyVault/2.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Azure.KeyVault.WebKey": "2.0.7",
-          "Microsoft.Rest.ClientRuntime": "[2.3.8, 3.0.0)",
-          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.7, 4.0.0)",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        }
-      },
-      "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.2",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        }
-      },
-      "Microsoft.Azure.Services.AppAuthentication/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.2",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "build": {
-          "build/_._": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -726,19 +668,6 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.AzureKeyVault/3.1.24": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Azure.KeyVault": "2.3.2",
-          "Microsoft.Azure.Services.AppAuthentication": "1.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyModel/9.0.0": {
@@ -856,20 +785,6 @@
           "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/8.15.0": {
@@ -1031,41 +946,6 @@
           }
         }
       },
-      "Microsoft.Rest.ClientRuntime/2.3.8": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        }
-      },
-      "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Rest.ClientRuntime": "[2.3.8, 3.0.0)",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
-            "related": ".runtimeconfig.json"
-          }
-        }
-      },
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
@@ -1168,14 +1048,10 @@
       "RabbitMQ.Client/6.8.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
       "runtime.native.System.Security.Cryptography/4.0.1": {
@@ -1740,7 +1616,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Autofac": "8.0.0",
-          "Azure.Messaging.ServiceBus": "7.17.4",
+          "Azure.Messaging.ServiceBus": "7.18.1",
           "EventBus": "1.0.0"
         },
         "compile": {
@@ -1899,16 +1775,16 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
-    "Azure.Core.Amqp/1.3.0": {
-      "sha512": "6GG4gyFkAuHtpBVkvj0wE5+lCM+ttsZlIWAipBkI+jlCUlTgrTiNUROBFnb8xuKoymVDw9Tf1W8RoKqgbd71lg==",
+    "Azure.Core.Amqp/1.3.1": {
+      "sha512": "AY1ZM4WwLBb9L2WwQoWs7wS2XKYg83tp3yVVdgySdebGN0FuIszuEqCy3Nhv6qHpbkjx/NGuOTsUbF/oNGBgwA==",
       "type": "package",
-      "path": "azure.core.amqp/1.3.0",
+      "path": "azure.core.amqp/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.amqp.1.3.0.nupkg.sha512",
+        "azure.core.amqp.1.3.1.nupkg.sha512",
         "azure.core.amqp.nuspec",
         "azureicon.png",
         "lib/netstandard2.0/Azure.Core.Amqp.dll",
@@ -1949,16 +1825,16 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Azure.Messaging.ServiceBus/7.17.4": {
-      "sha512": "18t39hYHiGNC6mFtJhkyGAxLgK2mVPfAgBJwHphDZrSzls66U1ITAr70YjpY9coEEObSCNbCGvk44Z9qptmzdA==",
+    "Azure.Messaging.ServiceBus/7.18.1": {
+      "sha512": "40KKWWA1PYlZQiMkEZdG7zof0kHfmak1PeCihp/W4vTbb+EYsHNypHEV63R41UBwVcU/lLGQQab6Gl6J8c9Byg==",
       "type": "package",
-      "path": "azure.messaging.servicebus/7.17.4",
+      "path": "azure.messaging.servicebus/7.18.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.messaging.servicebus.7.17.4.nupkg.sha512",
+        "azure.messaging.servicebus.7.18.1.nupkg.sha512",
         "azure.messaging.servicebus.nuspec",
         "azureicon.png",
         "lib/netstandard2.0/Azure.Messaging.ServiceBus.dll",
@@ -2416,10 +2292,10 @@
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
-    "Microsoft.Azure.Amqp/2.6.5": {
-      "sha512": "Hx0XrpkASCfZbwKqr5bc/5DveYZyhh+737AdUh0jq6nXFO+LbhSMOS3KHI4DtoHDTWR1WFycdxNJdByCZ/bzXQ==",
+    "Microsoft.Azure.Amqp/2.6.7": {
+      "sha512": "AR0zs1xlNvwN2nKdwPOFKJQpSTEOlxyGxUJtXyLOWTypP5XtTfShCfENkKwXZa+xIW6dzhY1t+zoI/PvMH1dxQ==",
       "type": "package",
-      "path": "microsoft.azure.amqp/2.6.5",
+      "path": "microsoft.azure.amqp/2.6.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2434,54 +2310,8 @@
         "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Microsoft.Azure.Amqp.dll",
         "lib/uap10.0/Microsoft.Azure.Amqp.dll",
         "lib/uap10.0/Microsoft.Azure.Amqp.pri",
-        "microsoft.azure.amqp.2.6.5.nupkg.sha512",
+        "microsoft.azure.amqp.2.6.7.nupkg.sha512",
         "microsoft.azure.amqp.nuspec"
-      ]
-    },
-    "Microsoft.Azure.KeyVault/2.3.2": {
-      "sha512": "A82ESUdfLz2wMhYuPxrwf/fA7JVt3IARgeMCG3TsaLtxUxa9RBKX3f0zdnKmvBvJ/u1/5g03OLR26GPekqY5HQ==",
-      "type": "package",
-      "path": "microsoft.azure.keyvault/2.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Azure.KeyVault.dll",
-        "lib/net452/Microsoft.Azure.KeyVault.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.runtimeconfig.json",
-        "microsoft.azure.keyvault.2.3.2.nupkg.sha512",
-        "microsoft.azure.keyvault.nuspec"
-      ]
-    },
-    "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
-      "sha512": "MVSYao62R9rwl9KF+IsJm+XBLupJj1ma2lfwNeFlSWziXGAopnYK+YkDWqABOqNIV9kpza/MvNBxITzhlJIyIw==",
-      "type": "package",
-      "path": "microsoft.azure.keyvault.webkey/2.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Azure.KeyVault.WebKey.dll",
-        "lib/net452/Microsoft.Azure.KeyVault.WebKey.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.runtimeconfig.json",
-        "microsoft.azure.keyvault.webkey.2.0.7.nupkg.sha512",
-        "microsoft.azure.keyvault.webkey.nuspec"
-      ]
-    },
-    "Microsoft.Azure.Services.AppAuthentication/1.0.3": {
-      "sha512": "ywpQaK1klu1IoX4VUf+TBmU4kR71aWNI6O5rEIJU8z28L2xhJhnIm7k2Nf1Zu/PygeuOtt5g0QPCk5+lLltbeQ==",
-      "type": "package",
-      "path": "microsoft.azure.services.appauthentication/1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.Azure.Services.AppAuthentication.targets",
-        "lib/net452/Microsoft.Azure.Services.AppAuthentication.dll",
-        "lib/net452/Microsoft.Azure.Services.AppAuthentication.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll",
-        "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.runtimeconfig.json",
-        "microsoft.azure.services.appauthentication.1.0.3.nupkg.sha512",
-        "microsoft.azure.services.appauthentication.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -2806,19 +2636,6 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
-    "Microsoft.Extensions.Configuration.AzureKeyVault/3.1.24": {
-      "sha512": "dAir8lfKn3Ukvis2sGddZ72bbuEQ24VusFELZg2JZDPTjBDyoVVocbxbe/39YAEHEq3TfCAIbHicCCKgHBBa2A==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.azurekeyvault/3.1.24",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll",
-        "microsoft.extensions.configuration.azurekeyvault.3.1.24.nupkg.sha512",
-        "microsoft.extensions.configuration.azurekeyvault.nuspec"
-      ]
-    },
     "Microsoft.Extensions.DependencyModel/9.0.0": {
       "sha512": "saxr2XzwgDU77LaQfYFXmddEDRUKHF4DaGMZkNB3qjdVSZlax3//dGJagJkKrGMIPNZs2jVFXITyCCR6UHJNdA==",
       "type": "package",
@@ -2976,33 +2793,6 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
         "microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512",
         "microsoft.identitymodel.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
-      "sha512": "TNsJJMiRnkeby1ovThVoV9yFsPWjAdluwOA+Nf0LtSsBVVrKQv8Qp4kYOgyNwMVj+pDwbhXISySk+4HyHVWNZQ==",
-      "type": "package",
-      "path": "microsoft.identitymodel.clients.activedirectory/3.14.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
-        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
-        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
-        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
-        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
-        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
-        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
-        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
-        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
-        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
-        "microsoft.identitymodel.clients.activedirectory.3.14.2.nupkg.sha512",
-        "microsoft.identitymodel.clients.activedirectory.nuspec"
       ]
     },
     "Microsoft.IdentityModel.JsonWebTokens/8.15.0": {
@@ -3270,36 +3060,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.6.14.nupkg.sha512",
         "microsoft.openapi.nuspec"
-      ]
-    },
-    "Microsoft.Rest.ClientRuntime/2.3.8": {
-      "sha512": "Hj96LBoCwKY2VQKfSCVGGPV1sSumVjuYnrlpBwL4JSTnSK4b6ZxjLtXj8LgmKav8xJ2gps+UN7eI3hHVFKvBFw==",
-      "type": "package",
-      "path": "microsoft.rest.clientruntime/2.3.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
-        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
-        "microsoft.rest.clientruntime.2.3.8.nupkg.sha512",
-        "microsoft.rest.clientruntime.nuspec"
-      ]
-    },
-    "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
-      "sha512": "6u8JIuvrztse4tPOcvNzAJuzGBP0uY+Ijggk8ZYhp0siGEZ1XfZylf1vpNGUicvwcrhhoIgDW73Z1L6QGssr2g==",
-      "type": "package",
-      "path": "microsoft.rest.clientruntime.azure/3.3.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
-        "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512",
-        "microsoft.rest.clientruntime.azure.nuspec"
       ]
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
@@ -4276,7 +4036,6 @@
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 9.0.0",
       "Microsoft.AspNetCore.HealthChecks >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 9.0.0",
-      "Microsoft.Extensions.Configuration.AzureKeyVault >= 3.1.24",
       "Microsoft.Extensions.Logging.AzureAppServices >= 9.0.0",
       "Serilog.AspNetCore >= 9.0.0",
       "Serilog.Enrichers.Environment >= 3.0.1",
@@ -4428,10 +4187,6 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[9.0.0, )"
-          },
-          "Microsoft.Extensions.Configuration.AzureKeyVault": {
-            "target": "Package",
-            "version": "[3.1.24, )"
           },
           "Microsoft.Extensions.Logging.AzureAppServices": {
             "target": "Package",
