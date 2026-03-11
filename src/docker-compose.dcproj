@@ -14,6 +14,7 @@
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\CI-CD-UPDATES.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\COMPILATION-FIXES.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\FINAL-REPORT.md" />
+    <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\FINAL-SUMMARY.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\NEXT-STEPS.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\SECURITY-ANALYSIS.md" />
     <None Include=".github\upgrades\scenarios\new-dotnet-version_124d44\STATUS-AND-RECOMMENDATIONS.md" />

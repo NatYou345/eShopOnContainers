@@ -7,5 +7,5 @@ public interface IRabbitMQPersistentConnection
 
     bool TryConnect();
 
-    IModel CreateModel();
+    Task<IChannel> CreateModelAsync();
 }

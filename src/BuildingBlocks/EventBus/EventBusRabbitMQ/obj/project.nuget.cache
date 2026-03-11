@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JkthRQ0oFHI=",
+  "dgSpecHash": "M8c+SkxhYsU=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.3\\microsoft.extensions.primitives.10.0.3.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly\\8.6.6\\polly.8.6.6.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly.core\\8.6.6\\polly.core.8.6.6.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512"
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
