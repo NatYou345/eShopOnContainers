@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t5c84/3fiM4=",
+  "dgSpecHash": "QLwX5f80kfI=",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\source\\repos\\eShopOnContainers\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -86,7 +86,7 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\opentelemetry.persistentstorage.filesystem\\1.0.2\\opentelemetry.persistentstorage.filesystem.1.0.2.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly\\8.6.6\\polly.8.6.6.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\polly.core\\8.6.6\\polly.core.8.6.6.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\serilog.aspnetcore\\10.0.0\\serilog.aspnetcore.10.0.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\serilog.enrichers.environment\\3.0.1\\serilog.enrichers.environment.3.0.1.nupkg.sha512",
