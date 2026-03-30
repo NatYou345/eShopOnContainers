@@ -16,7 +16,7 @@
     <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
     <PackageReference Include="Microsoft.OpenApi" Version="3.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="10.0.3" />
