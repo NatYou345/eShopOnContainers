@@ -24,6 +24,7 @@
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="10.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.6" />
     <ProjectReference Include="..\Basket.API\Basket.API.csproj" />
   </ItemGroup>
 </Project>
