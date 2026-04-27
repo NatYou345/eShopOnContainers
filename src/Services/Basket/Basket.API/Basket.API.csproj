@@ -38,7 +38,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="10.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.7" />
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="10.0.3" />
     <PackageReference Include="Microsoft.OpenApi">
       <Version>3.4.0</Version>
